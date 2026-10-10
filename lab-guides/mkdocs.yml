@@ -1,0 +1,70 @@
+site_name: WCC Engineering Lab Guides
+site_description: How-to guides for the 3D printer, laser cutter, and soldering stations in the WCC Engineering Lab.
+site_url: https://cbolandedu.github.io/Badging-/
+repo_url: https://github.com/cbolandedu/Badging-
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.footer
+    - navigation.top
+    - search.highlight
+    - content.action.edit
+  icon:
+    logo: material/wrench
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home:
+      - Welcome: index.md
+      - Lab Rules: lab-rules.md
+  - 3D Printing:
+      - Overview & Safety: 3d-printing/index.md
+      - Step-by-Step: 3d-printing/steps.md
+      - Troubleshooting: 3d-printing/troubleshooting.md
+  - Laser Cutting:
+      - Overview & Safety: laser-cutting/index.md
+      - Prepare the Machine: laser-cutting/prepare-machine.md
+      - Prepare Your Design: laser-cutting/prepare-design.md
+      - Troubleshooting: laser-cutting/troubleshooting.md
+  - Soldering:
+      - Overview & Safety: soldering/index.md
+      - Step-by-Step: soldering/steps.md
+      - Good vs. Bad Joints: soldering/joints.md
+  - Slides & Downloads: downloads.md
+  - Help Improve This Site: contribute.md

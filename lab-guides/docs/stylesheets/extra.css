@@ -1,0 +1,15 @@
+:root, [data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #1E4D2B;
+  --md-primary-fg-color--light: #4A8C5C;
+  --md-primary-fg-color--dark: #153820;
+  --md-accent-fg-color: #D4A72C;
+}
+.md-typeset img {
+  border-radius: 8px;
+  max-height: 420px;
+}
+.md-typeset .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
