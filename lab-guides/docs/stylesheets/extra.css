@@ -49,3 +49,22 @@
 .topic-card__text { font-size: 0.8rem; flex-grow: 1; }
 .topic-card__go { font-size: 0.8rem; font-weight: 700; color: var(--md-primary-fg-color--light); }
 a.topic-card:hover .topic-card__go { text-decoration: underline; }
+
+/* "person" contact cards on the Ask for Help page */
+:root {
+  --md-admonition-icon--person: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4"/></svg>');
+}
+.md-typeset .admonition.person,
+.md-typeset details.person {
+  border-color: var(--md-primary-fg-color--light);
+}
+.md-typeset .person > .admonition-title,
+.md-typeset .person > summary {
+  background-color: color-mix(in srgb, var(--md-primary-fg-color--light) 12%, transparent);
+}
+.md-typeset .person > .admonition-title::before,
+.md-typeset .person > summary::before {
+  background-color: var(--md-primary-fg-color--light);
+  -webkit-mask-image: var(--md-admonition-icon--person);
+          mask-image: var(--md-admonition-icon--person);
+}
