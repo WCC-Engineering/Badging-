@@ -37,9 +37,12 @@ Welcome! These guides walk you through using the equipment in the **WCC Engineer
 4. **Walk through the Step-by-Step page** so you know what to expect.
 5. **Bring the Step-by-Step page to lab** on your phone or laptop and follow along.
 
+!!! tip "Stuck? You're not on your own"
+    Lab staff, instructors, and peer mentors are here to help. See [Ask for Help](help.md).
+
 !!! warning "Never use a machine you haven't been trained on"
     These guides prepare you. They don't replace hands-on training from your instructor or lab staff.
 
 ## Found something wrong or out of date?
 
-Machines and software change. If a step doesn't match what you see in the lab, please tell us. See [Help Improve This Site](contribute.md).
+Machines and software change. If a step doesn't match what you see in the lab, please tell your instructor or a peer mentor. See [Ask for Help](help.md).
