@@ -1,36 +1,54 @@
-# WCC Engineering Lab Guides
+# Onshape: Getting Started
 
-Welcome! These guides walk you through using the equipment in the **WCC Engineering Lab**. Read through the guide for a machine **before** you come to lab. You'll get far more done, and you'll do it safely.
+**Onshape** is a professional CAD (computer-aided design) program that runs in your web browser. There's nothing to install, your work saves automatically, and it works on lab computers, laptops, and Chromebooks.
 
-<div class="grid" markdown>
+Every machine in the lab starts from an Onshape design:
 
-!!! tip "3D Printing"
-    Bambu Lab X1-Carbon. Go from an Onshape part to a printed object.
+- **3D Printing:** export your *part* as STL or 3MF
+- **Laser Cutting:** export a *drawing* as DXF
 
-    [Start here →](3d-printing/index.md)
+## 1. Make a free account
 
-!!! tip "Laser Cutting"
-    Trotec Rayjet 300 in **CAS 117**. Go from an Onshape drawing to a laser-cut part.
+1. Go to [onshape.com/education](https://www.onshape.com/en/education/).
+2. Choose the free **Education** plan for students (not the Free/Hobbyist plan).
+3. Sign up with your **school email** if you can.
 
-    [Start here →](laser-cutting/index.md)
+!!! tip
+    Bookmark [cad.onshape.com](https://cad.onshape.com). That's where your documents live.
 
-!!! tip "Soldering"
-    Soldering stations in **CAS 113 and CAS 117**. Make electrical connections that last.
+## 2. How Onshape is organized
 
-    [Start here →](soldering/index.md)
+| Term | What it is |
+|---|---|
+| **Document** | A project folder. Everything for one project lives in one document. |
+| **Tab** | Each document has tabs along the bottom, like a spreadsheet. |
+| **Part Studio** | A tab where you **design parts** with sketches and features. |
+| **Assembly** | A tab where you **put parts together** and make them move. |
+| **Drawing** | A tab where you make a **2D engineering drawing** of your part. |
+| **Feature list** | The list on the left of every step you took. You can go back and edit any step. |
 
-</div>
+## 3. Get around the screen
 
-## How to use these guides
+| To do this | Do this |
+|---|---|
+| **Rotate** the view | Right-click and drag |
+| **Pan** (slide) the view | Middle-click and drag, or Ctrl + right-click and drag |
+| **Zoom** | Scroll wheel |
+| **Snap to a flat view** | Click a face of the view cube (top right) |
+| **Undo** | Ctrl + Z |
 
-1. **Read the Overview & Safety page** for the machine you'll use.
-2. **Complete the matching quiz in Canvas.** Your instructor will tell you which one.
-3. **Walk through the Step-by-Step page** so you know what to expect.
-4. **Bring the Step-by-Step page to lab** on your phone or laptop and follow along.
+!!! info "Mouse recommended"
+    Onshape works with a trackpad, but a mouse with a scroll wheel makes it much easier.
 
-!!! warning "Never use a machine you haven't been trained on"
-    These guides prepare you. They don't replace hands-on training from your instructor or lab staff.
+## 4. Name and share your work
 
-## Found something wrong or out of date?
+- **Name your document** right away: *Your Name - Project Name*.
+- To share with your instructor: click **Share** (top right), type their email, and choose **Can view** or **Can edit**.
 
-Machines and software change. If a step doesn't match what you see in the lab, please tell us. See [Help Improve This Site](contribute.md).
+## Good habits
+
+- **Units first.** Check the units before you start, usually **millimeters**. In a Part Studio, find them under the document menu → **Workspace units**.
+- **Name your features.** Double-click a feature in the list and rename it ("Base plate", "Mounting holes") so you can find it later.
+- **Dimension everything.** A sketch with every line dimensioned turns **black**. Blue lines can still move. See [Sketch to Part](sketch-to-part.md).
+
+**Next:** [Sketch to Part →](sketch-to-part.md)
