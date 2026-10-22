@@ -1,8 +1,8 @@
 :root, [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #1E4D2B;
-  --md-primary-fg-color--light: #4A8C5C;
-  --md-primary-fg-color--dark: #153820;
-  --md-accent-fg-color: #D4A72C;
+  --md-primary-fg-color: #003B71;
+  --md-primary-fg-color--light: #2C6AA8;
+  --md-primary-fg-color--dark: #002A52;
+  --md-accent-fg-color: #C8102E;
 }
 .md-typeset img {
   border-radius: 8px;
