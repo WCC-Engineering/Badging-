@@ -69,33 +69,6 @@ a.topic-card:hover .topic-card__go { text-decoration: underline; }
           mask-image: var(--md-admonition-icon--person);
 }
 
-/* Ask a Question form */
-.md-typeset .ask-form {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  max-width: 34rem;
-  margin: 1.5rem 0;
-}
-.md-typeset .ask-form label { font-weight: 700; margin-top: 0.6rem; }
-.md-typeset .ask-form input,
-.md-typeset .ask-form select,
-.md-typeset .ask-form textarea {
-  font: inherit;
-  padding: 0.55rem 0.7rem;
-  border: 1px solid var(--md-default-fg-color--lighter);
-  border-radius: 6px;
-  background: var(--md-default-bg-color);
-  color: var(--md-default-fg-color);
-}
-.md-typeset .ask-form input:focus,
-.md-typeset .ask-form select:focus,
-.md-typeset .ask-form textarea:focus {
-  outline: 3px solid var(--md-accent-fg-color);
-  outline-offset: 1px;
-}
-.md-typeset .ask-form button { align-self: flex-start; margin-top: 1rem; cursor: pointer; }
-.md-typeset .ask-form__error { color: var(--md-accent-fg-color); font-weight: 700; margin: 0.4rem 0 0; }
 
 /* Step-by-step workflow strip (laser cutting) */
 .md-typeset .flow { margin: 1.5rem 0; }
@@ -106,7 +79,7 @@ a.topic-card:hover .topic-card__go { text-decoration: underline; }
 }
 .md-typeset ol.flow__steps {
   list-style: none; margin: 0; padding: 0;
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.6rem;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 0.6rem;
   counter-reset: flow var(--flow-start, 0);
 }
 .md-typeset ol.flow__steps > li {
@@ -152,3 +125,71 @@ a.topic-card:hover .topic-card__go { text-decoration: underline; }
   -webkit-mask-image: var(--md-admonition-icon--video-soon);
   mask-image: var(--md-admonition-icon--video-soon);
 }
+
+/* Big, bright "take the safety quiz" banner */
+:root {
+  --md-admonition-icon--quiz: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2 4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5zm-1.06 13.54L7.4 12l1.41-1.41 2.12 2.12 4.24-4.24 1.41 1.41z"/></svg>');
+}
+.md-typeset .admonition.quiz {
+  border: 3px solid #F2A900;
+  border-radius: 12px;
+  background: #FFF6D6;
+  color: #1F2933;
+  font-size: 0.9rem;
+  box-shadow: 0 6px 18px rgba(242, 169, 0, 0.35);
+  margin: 2.2em 0;
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition.quiz {
+  background: #3A2E06;
+  color: #FFF6D6;
+}
+.md-typeset .quiz > .admonition-title {
+  background: #F2A900;
+  color: #1F2933;
+  font-size: 1.15rem;
+  font-weight: 800;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  border-radius: 8px 8px 0 0;
+}
+.md-typeset .quiz > .admonition-title::before {
+  background-color: #1F2933;
+  -webkit-mask-image: var(--md-admonition-icon--quiz);
+  mask-image: var(--md-admonition-icon--quiz);
+  width: 1.4rem; height: 1.4rem; top: 0.85rem;
+}
+.md-typeset .quiz .md-button {
+  font-size: 1rem;
+  padding: 0.75em 1.6em;
+  background: #C8102E;
+  border-color: #C8102E;
+  color: #FFFFFF;
+}
+.md-typeset .quiz .md-button:hover,
+.md-typeset .quiz .md-button:focus-visible {
+  background: #9E0C24;
+  border-color: #9E0C24;
+  color: #FFFFFF;
+}
+
+/* Embedded videos: highlighted, full-width, keeps 16:9 on any screen */
+.md-typeset .video-box {
+  border: 3px solid var(--md-primary-fg-color--light);
+  border-radius: 12px;
+  padding: 0.9rem 1rem 1rem;
+  margin: 1.2rem 0 1.5rem;
+  background: var(--md-default-fg-color--lightest);
+}
+.md-typeset .video-box__title {
+  display: flex; align-items: center; gap: 0.5rem;
+  font-size: 1.05rem; font-weight: 800; margin: 0 0 0.7rem;
+  color: var(--md-primary-fg-color--light);
+}
+.md-typeset .video-box__frame {
+  position: relative; width: 100%; aspect-ratio: 16 / 9;
+  border-radius: 8px; overflow: hidden; background: #000;
+}
+.md-typeset .video-box__frame iframe {
+  position: absolute; inset: 0; width: 100%; height: 100%; border: 0;
+}
+.md-typeset .video-box__link { font-size: 0.75rem; margin: 0.6rem 0 0; }

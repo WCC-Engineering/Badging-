@@ -36,7 +36,7 @@ Each badge walks you through using a piece of equipment in the **WCC Engineering
 See [What Is a Badge?](what-is-a-badge.md) for the steps. In short: read the badge, pass its safety quiz in Canvas, then follow the Step-by-Step pages in lab.
 
 !!! tip "Stuck?"
-    Find Jonathan, any of the peer mentors, or an instructor to help! See [Ask for Help](help.md), or [send Jonathan a question](ask-a-question.md).
+    Find Jonathan, any of the peer mentors, or an instructor to help! See [Ask for Help](help.md).
 
 !!! warning "Never use a machine you haven't been trained on"
     Badges prepare you. They don't replace hands-on training from your instructor or lab staff.

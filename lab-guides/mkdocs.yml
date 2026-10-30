@@ -65,12 +65,11 @@ nav:
   - Laser Cutting:
       - Overview & Safety: laser-cutting/index.md
       - Prepare Your Design: laser-cutting/prepare-design.md
+      - How to Engrave: laser-cutting/engrave.md
       - Prepare the Machine: laser-cutting/prepare-machine.md
       - Troubleshooting: laser-cutting/troubleshooting.md
   - Soldering:
       - Overview & Safety: soldering/index.md
       - Step-by-Step: soldering/steps.md
       - Good vs. Bad Joints: soldering/joints.md
-  - Ask for Help:
-      - Who to Ask: help.md
-      - Ask a Question: ask-a-question.md
+  - Ask for Help: help.md

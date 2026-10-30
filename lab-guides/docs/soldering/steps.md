@@ -64,7 +64,11 @@ Review these steps **before** starting the soldering badge activity: the **Spark
 
 ## Step 4: Solder
 
-[▶ Watch this video first (YouTube)](http://www.youtube.com/watch?v=f95i88OSWB4)
+<div class="video-box">
+<p class="video-box__title">▶ Watch: How to solder a joint (watch before you start)</p>
+<div class="video-box__frame"><iframe src="https://www.youtube-nocookie.com/embed/f95i88OSWB4" title="How to solder a joint (watch before you start)" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+<p class="video-box__link">Video not playing? <a href="https://www.youtube.com/watch?v=f95i88OSWB4">Open it on YouTube</a>.</p>
+</div>
 
 **A. Cut yourself a piece of solder.** A short piece is easier to control than the spool.
 

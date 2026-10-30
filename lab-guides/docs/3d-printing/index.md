@@ -87,8 +87,22 @@ The [Step-by-Step](steps.md) page walks through each step.
 - **Fit the cube.** Max 256 mm on each side, and smaller prints finish faster.
 - **Details ≥ 1 mm.** Tiny text and features get lost.
 
+### See the difference
+
+<div class="grid" markdown>
+
+![Good: an L-shaped part printed lying on its big flat face. Bad: the same part standing on its end, needing lots of supports.](../images/3d-printing/orient-flat-face-down.svg)
+
+![Good: a slope of 45 degrees or less prints with no supports. Bad: a flat overhang past 45 degrees needs supports underneath.](../images/3d-printing/overhang-45-rule.svg)
+
+![Good: a peg with a 0.2 to 0.3 millimeter gap fits in its hole. Bad: a peg the exact same size as the hole won't fit.](../images/3d-printing/clearance-fit.svg)
+
+</div>
+
 !!! tip "Layers are the weak spot"
     Parts are strongest *along* their layers and weakest *between* them. Orient your part so the load doesn't pull the layers apart.
+
+![Good: a load pressing along the layers. Bad: a load that pulls the layers apart, so the part snaps between layers.](../images/3d-printing/layer-strength.svg){ width="480" }
 
 ## Safety
 
@@ -98,9 +112,9 @@ The [Step-by-Step](steps.md) page walks through each step.
 - **Safety glasses** when cutting or snapping off supports.
 - **Log your print** and **report problems** (weird noises, smells, errors) right away.
 
-!!! success "Now take the safety quiz in Canvas"
+!!! quiz "Required: Now take the safety quiz in Canvas"
     Done reviewing this page? [Go to Canvas](https://wcc.instructure.com/courses/2771437) and take the **3D Printing Badge: Safety Quiz**. You need **100%** to pass, and you can retake it as many times as you need. You must pass it before you use the equipment.
 
-    [:material-open-in-new: Take the quiz in Canvas](https://wcc.instructure.com/courses/2771437){ .md-button .md-button--primary }
+    [:material-open-in-new: Take the quiz in Canvas](https://wcc.instructure.com/courses/2771437){ .md-button }
 
 **Next:** [Step-by-Step →](steps.md)

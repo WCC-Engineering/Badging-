@@ -43,7 +43,11 @@ The [Step-by-Step](steps.md) page walks through each step.
 
 ## Watch first
 
-[▶ Soldering Crash Course (YouTube)](http://www.youtube.com/watch?v=6rmErwU5E-k)
+<div class="video-box">
+<p class="video-box__title">▶ Watch: Soldering Crash Course</p>
+<div class="video-box__frame"><iframe src="https://www.youtube-nocookie.com/embed/6rmErwU5E-k" title="Soldering Crash Course" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+<p class="video-box__link">Video not playing? <a href="https://www.youtube.com/watch?v=6rmErwU5E-k">Open it on YouTube</a>.</p>
+</div>
 
 While you watch, notice:
 
@@ -58,7 +62,7 @@ While you watch, notice:
 
 | Tool | What it does |
 |---|---|
-| **Soldering iron + stand** | Heated tip melts solder; the station sets the temperature |
+| **Soldering iron + stand** | Heated tip melts solder; the iron station sets the temperature |
 | **Solder** | Metal alloy wire that forms the bond |
 | **Flux** | Cleans oxidation off the metal so solder sticks |
 | **Fume absorber** | Filters fumes away from your face |
@@ -66,6 +70,14 @@ While you watch, notice:
 | **Wire strippers** | Remove insulation; match the notch to the wire gauge |
 | **Flush cutters** | Cut solder and trim component leads |
 | **Safety glasses** | Always on while soldering |
+
+*Wire strippers and safety glasses aren't in the photo. You'll find them at your station.*
+
+### Can you find each tool?
+
+Look at the photo above and try to spot each tool from the list. Then check yourself:
+
+![The same soldering station photo with labels and arrows pointing to the fume absorber, iron station, solder, support clamp, flush cutters, flux pen, and iron with stand.](../images/soldering/station-labeled.jpg)
 
 ## Why clean and shiny matters
 
@@ -84,9 +96,9 @@ Hot metal **oxidizes** within seconds, forming a dark layer that solder won't st
 - **Burned?** Cool running water right away, then tell the instructor.
 - Know where the **fire extinguisher** (rated for electrical fires) and the **first aid kit** are.
 
-!!! success "Now take the safety quiz in Canvas"
+!!! quiz "Required: Now take the safety quiz in Canvas"
     Done reviewing this page? [Go to Canvas](https://wcc.instructure.com/courses/2771437) and take the **Soldering Badge: Safety Quiz**. You need **100%** to pass, and you can retake it as many times as you need. You must pass it before you use the equipment.
 
-    [:material-open-in-new: Take the quiz in Canvas](https://wcc.instructure.com/courses/2771437){ .md-button .md-button--primary }
+    [:material-open-in-new: Take the quiz in Canvas](https://wcc.instructure.com/courses/2771437){ .md-button }
 
 **Next:** [Step-by-Step →](steps.md)

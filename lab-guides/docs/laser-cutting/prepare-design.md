@@ -2,6 +2,8 @@
 
 Your design goes through **three programs** on its way to the laser:
 
+*Just engraving text or a picture? Skip Onshape and see [How to Engrave](engrave.md).*
+
 <div class="flow" markdown>
 <div class="flow__group">
 <p class="flow__where">Before lab · any computer (engineering laptops in Cascade 112)</p>

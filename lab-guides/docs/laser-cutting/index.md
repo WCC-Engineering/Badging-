@@ -64,6 +64,9 @@ Every laser job follows the same path through three programs:
 
 The [Prepare Your Design](prepare-design.md) page walks through each step.
 
+!!! tip "Just engraving text or a picture?"
+    You **don't need Onshape**. You can do it all in CorelDRAW. See [How to Engrave](engrave.md).
+
 ## Cut, etch, or engrave?
 
 The laser doesn't know what you intend. It decides what to do from the **color of each line** in your file.
@@ -116,9 +119,29 @@ The laser engraves first and cuts last, so parts don't shift before the engravin
 - **Keep features at least as thick as the sheet.**
 - **Watch for islands.** The middle of an "O" falls out when cut. Engrave text instead.
 
-!!! success "Now take the safety quiz in Canvas"
+!!! warning "Don't use Transform to scale a laser-cut design"
+    Want your design bigger or smaller? **Don't use Onshape's Transform (scale) feature.** Scaling shrinks or grows **every** dimension, including the slots and tabs that are sized to your material's thickness.
+    Your sheet doesn't get thinner or thicker, so the scaled slots won't match it and the parts **won't fit together**.
+
+    **Instead:** change the sizes in your sketches, and keep slot and tab widths equal to your sheet thickness. A `#thickness` variable makes this easy (see [Sketch to Part](../onshape/sketch-to-part.md#step-5-edit-later)). The same goes for resizing your design in CorelDRAW.
+
+### See the difference
+
+<div class="grid" markdown>
+
+![Good: a slot drawn one kerf narrower holds the tab snugly. Bad: a slot drawn exactly the sheet thickness comes out loose and wobbly.](../images/laser/tip-kerf.svg)
+
+![Good: 2 to 3 millimeters between parts. Bad: parts touching, which scorches and lets parts fall through.](../images/laser/tip-spacing.svg)
+
+![Good: a tab at least as thick as the sheet. Bad: a tab thinner than the sheet snaps off.](../images/laser/tip-feature-thickness.svg)
+
+![Good: text engraved in black. Bad: cutting the letter O, so the center falls out.](../images/laser/tip-islands.svg)
+
+</div>
+
+!!! quiz "Required: Now take the safety quiz in Canvas"
     Done reviewing this page? [Go to Canvas](https://wcc.instructure.com/courses/2771437) and take the **Laser Cutting Badge: Safety Quiz**. You need **100%** to pass, and you can retake it as many times as you need. You must pass it before you use the equipment.
 
-    [:material-open-in-new: Take the quiz in Canvas](https://wcc.instructure.com/courses/2771437){ .md-button .md-button--primary }
+    [:material-open-in-new: Take the quiz in Canvas](https://wcc.instructure.com/courses/2771437){ .md-button }
 
 **Next:** [Prepare Your Design →](prepare-design.md)

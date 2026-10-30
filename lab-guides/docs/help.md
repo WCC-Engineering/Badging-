@@ -1,7 +1,5 @@
 # Ask for Help
 
-Prefer to write it down? [Ask a Question](ask-a-question.md) and it goes straight to Jonathan.
-
 ## Lab Tech
 
 **Jonathan Van Hyning**  
@@ -19,4 +17,6 @@ Prefer to write it down? [Ask a Question](ask-a-question.md) and it goes straigh
 
 ## Instructors
 
-Coming soon.
+- Chloe
+- Eric
+- Pat

@@ -12,11 +12,21 @@ Every machine in the lab starts from an Onshape design:
 !!! info "Need a computer?"
     Engineering laptops are available for anyone to use in **Cascade, room 112**.
 
-## Step 1: Make a free account
+## Step 1: Make a free student account
 
 1. Go to [onshape.com/education](https://www.onshape.com/en/education/).
-2. Choose the free **Education** plan for students (not the Free/Hobbyist plan).
+2. Choose the free **Student** plan. **Not** the regular Free plan.
 3. Sign up with your **WCC school email**.
+
+!!! warning "Student plan, not the regular Free plan"
+    Both are free, but they're different:
+
+    | | **Student plan** :white_check_mark: | Regular Free plan :x: |
+    |---|---|---|
+    | Your documents | **Private**: only people you share with can see them | **Public**: anyone on Onshape can see and copy them |
+    | Renewal | Renew once a year while you're a student | — |
+
+    Already made a regular Free account? Ask your instructor how to switch it to the Student plan.
 
 !!! tip
     Bookmark [cad.onshape.com](https://cad.onshape.com). That's where your documents live.
