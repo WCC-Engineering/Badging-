@@ -2,6 +2,8 @@
 
 [:material-arrow-left: Back to Home](../index.md){ .md-button }
 
+**New to the lab?** Read the [Lab Rules](../lab-rules.md) first. They apply to every machine.
+
 The laser cutter available for student use is in the WCC Engineering Lab, **CAS 117**. It's a **TROTEC Rayjet 300**, a CO₂ laser with a bed size of **29" × 17"**.
 
 ![The Trotec Rayjet 300 laser cutter on its stand in CAS 117, with the lid closed.](../images/laser/rayjet-in-lab.jpg)
@@ -13,12 +15,16 @@ The laser cutter available for student use is in the WCC Engineering Lab, **CAS 
     - One **1:1 view of each part** you want cut
     - Ready to **export as a DXF**
 
-    **Don't use the CAS 117 computer to model or draw.** Someone else may be waiting to cut. See [Drawings & Export](../onshape/drawings-and-export.md).
+    **Don't use the CAS 117 computer to model.** Someone else may be waiting to cut. See [Drawings & Export](../onshape/drawings-and-export.md).
 
 !!! info "Need a computer?"
     Engineering laptops are available for anyone to use in **Cascade, room 112**.
 
-## How a laser cutter works
+## What is laser cutting?
+
+A laser cutter uses a focused beam of light to **cut or engrave flat sheets** of material, like plywood, acrylic, and cardboard. You give it a 2D drawing, and it follows the lines.
+
+### How it works
 
 A **CO₂ laser tube** makes an invisible infrared beam. **Mirrors** bounce it to the cutting head, where a **lens** focuses it to a tiny, very hot spot. The material **burns or vaporizes** along the path, and the **ventilation fan** pulls the smoke out.
 
@@ -29,9 +35,34 @@ It's a *subtractive* process: it removes material, unlike a 3D printer, which ad
     The laser **can't** cut angles, bevels, or chamfers through the thickness, and it can't cut a 3D shape. It cuts a flat outline, like a cookie cutter.
     Need an angled or 3D part? Build it from flat parts that slot together, or 3D print it instead.
 
-<!-- VIDEO: add a video of the laser cutting here. For a YouTube video, replace this comment with:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" title="Laser cutter cutting plywood" frameborder="0" allowfullscreen></iframe>
--->
+!!! video-soon "Video coming soon"
+    A video of our laser cutter cutting plywood, so you can see the beam cut straight down.
+
+## The process: from Onshape to the laser
+
+Every laser job follows the same path through three programs:
+
+<div class="flow" markdown>
+<div class="flow__group">
+<p class="flow__where">Before lab · any computer (engineering laptops in Cascade 112)</p>
+<ol class="flow__steps">
+<li><span class="flow__app">Onshape</span>Make your part</li>
+<li><span class="flow__app">Onshape</span>Make a <strong>laser cut drawing</strong>: outlines only, 1:1</li>
+<li><span class="flow__app">Onshape</span>Download it as a <strong>DXF</strong></li>
+</ol>
+</div>
+<div class="flow__group">
+<p class="flow__where">At the laser · CAS 117 computer</p>
+<ol class="flow__steps" style="--flow-start: 3">
+<li><span class="flow__app">CorelDRAW</span>Open your DXF</li>
+<li><span class="flow__app">CorelDRAW</span><strong>Change line colors</strong> to cut or engrave</li>
+<li><span class="flow__app">CorelDRAW → Rayjet Manager</span><strong>File → Print</strong> sends your design to Rayjet Manager</li>
+<li><span class="flow__app">Rayjet Manager → Laser</span>Send the job to the laser and press <strong>START</strong></li>
+</ol>
+</div>
+</div>
+
+The [Prepare Your Design](prepare-design.md) page walks through each step.
 
 ## Cut, etch, or engrave?
 
@@ -42,7 +73,7 @@ The laser doesn't know what you intend. It decides what to do from the **color o
 | Color | Process | What it does |
 |---|---|---|
 | :red_circle: **Red** | Vector Cut | Cuts all the way through |
-| :large_blue_circle: **Blue** | Vector Engrave (also called *Etching*, *Marking*, or *Scoring*) | Marks a line on the surface |
+| :blue_circle: **Blue** | Vector Engrave (also called *Etching*, *Marking*, or *Scoring*) | Marks a line on the surface |
 | :black_circle: **Black** | Raster Engrave | Fills in an area, like text or a logo |
 
 The laser engraves first and cuts last, so parts don't shift before the engraving is done.
@@ -90,4 +121,4 @@ The laser engraves first and cuts last, so parts don't shift before the engravin
 
     [:material-open-in-new: Take the quiz in Canvas](https://wcc.instructure.com/courses/2771437){ .md-button .md-button--primary }
 
-**Next:** [Prepare the Machine →](prepare-machine.md)
+**Next:** [Prepare Your Design →](prepare-design.md)

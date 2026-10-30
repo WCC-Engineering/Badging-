@@ -8,4 +8,6 @@
 | Border or dimensions got cut | Drawing extras left in the file | Delete them in CorelDRAW before printing |
 | Slots too loose | Kerf not accounted for | Make slots about one kerf narrower; cut a small test strip first |
 
-Still stuck? Ask your instructor or lab staff. Don't guess with the laser.
+Still stuck? Find Jonathan, a peer mentor, or an instructor. Don't guess with the laser. See [Ask for Help](../help.md).
+
+[:material-arrow-left: Back to Home](../index.md){ .md-button }

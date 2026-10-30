@@ -16,11 +16,20 @@ How you get your design out of Onshape depends on the machine.
 5. Resolution: **Fine**
 6. Click **Export** to download it.
 
+!!! image-soon "Image coming soon"
+    The Onshape Export dialog for a part, with STL, Millimeter, and Fine selected.
+
+<!-- When the photo is ready: add images/onshape/export-stl.jpg and replace the box above with ![The Onshape Export dialog for a part, with STL, Millimeter, and Fine selected.](../images/onshape/export-stl.jpg) -->
+
 Then follow the [3D Printing Step-by-Step](../3d-printing/steps.md).
 
 ## For the laser cutter: make a drawing, then export DXF
 
 ### Make the drawing
+
+!!! warning "A laser cut drawing is not an engineering drawing"
+    The laser cuts **every line** in the file. A laser cut drawing is a blank sheet with **only the outlines of the parts** you want cut: no border, no title block, no dimensions. See the [side-by-side example](../laser-cutting/prepare-design.md#step-2-make-a-laser-cut-drawing-in-onshape).
+
 
 1. Click the **+** at the bottom left (next to the tabs) and choose **Create Drawing**.
 2. Pick your part. Start from a **blank sheet: no border and no title block**.
@@ -31,6 +40,12 @@ Then follow the [3D Printing Step-by-Step](../3d-printing/steps.md).
     If the view isn't 1:1, your part comes out bigger or smaller than you designed it.
 
 5. Don't add dimensions to the laser drawing. Every line in the file may get cut.
+
+!!! image-soon "Image coming soon"
+    A finished laser cut drawing in Onshape: a blank sheet with a 1:1 top view of each part, no border or title block.
+
+<!-- When the photo is ready: add images/onshape/laser-cut-drawing.jpg and replace the box above with ![A finished laser cut drawing in Onshape: a blank sheet with a 1:1 top view of each part, no border or title block.](../images/onshape/laser-cut-drawing.jpg) -->
+
 
 ### Export it
 
@@ -50,3 +65,5 @@ For class assignments that need a full engineering drawing, use a drawing templa
 - Your **name**, **part name**, **units**, and **scale** in the title block
 
 Export it as **PDF** to submit.
+
+**Next:** Pick a badge: [3D Printing](../3d-printing/index.md) · [Laser Cutting](../laser-cutting/index.md)

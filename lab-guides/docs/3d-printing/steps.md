@@ -17,6 +17,11 @@ Follow the design rules on the [Overview page](index.md#design-for-3d-printing).
 5. Resolution: **Fine**
 6. Download the file.
 
+!!! image-soon "Image coming soon"
+    The Onshape Export dialog with STL, Millimeter, and Fine selected.
+
+<!-- When the photo is ready: add images/3d-printing/onshape-export.jpg and replace the box above with ![The Onshape Export dialog with STL, Millimeter, and Fine selected.](../images/3d-printing/onshape-export.jpg) -->
+
 !!! warning "Check your units!"
     If a 50 mm part shows up far too small or far too big in the slicer, it was exported in the wrong units.
 
@@ -33,9 +38,15 @@ A **slicer** turns your 3D model into hundreds of thin layers and the exact path
 7. **Check settings** (table below).
 8. Click **Slice plate**, then check the **Preview** tab.
 
-<!-- PHOTO: add images/3d-printing/slicer-preview.jpg, then replace this comment with:
-![A sliced part in the Bambu Studio Preview tab, showing layers and supports.](../images/3d-printing/slicer-preview.jpg)
--->
+!!! image-soon "Image coming soon"
+    A sliced part in the Bambu Studio Preview tab, showing layers and supports.
+
+<!-- When the photo is ready: add images/3d-printing/slicer-preview.jpg and replace the box above with ![A sliced part in the Bambu Studio Preview tab, showing layers and supports.](../images/3d-printing/slicer-preview.jpg) -->
+
+!!! image-soon "Image coming soon"
+    The Bambu Studio Prepare tab with the printer, plate type, and filament set, and a part laid flat on the plate.
+
+<!-- When the photo is ready: add images/3d-printing/bambu-prepare-tab.jpg and replace the box above with ![The Bambu Studio Prepare tab with the printer, plate type, and filament set, and a part laid flat on the plate.](../images/3d-printing/bambu-prepare-tab.jpg) -->
 
 | Setting | Start with | Change it when… |
 |---|---|---|
@@ -57,6 +68,11 @@ A **slicer** turns your 3D model into hundreds of thin layers and the exact path
 
 Click **Print plate**, choose our X1-Carbon, and check **Bed leveling**, **Flow dynamics calibration**, and **Use AMS**. Then click **Send**.
 
+!!! image-soon "Image coming soon"
+    The Bambu Studio Send dialog with Bed leveling, Flow dynamics calibration, and Use AMS checked.
+
+<!-- When the photo is ready: add images/3d-printing/bambu-send-dialog.jpg and replace the box above with ![The Bambu Studio Send dialog with Bed leveling, Flow dynamics calibration, and Use AMS checked.](../images/3d-printing/bambu-send-dialog.jpg) -->
+
 The first few minutes look like nothing is happening while it heats and calibrates. That's normal.
 
 ## Step 5: Print and watch the first layer
@@ -68,6 +84,11 @@ The first few minutes look like nothing is happening while it heats and calibrat
 !!! tip "Watch the first layer"
     Lines should be flat, slightly squished, and touching each other. If it's lifting, curling, or dragging around, stop and ask for help.
 
+!!! image-soon "Image coming soon"
+    A good first layer: flat, slightly squished lines that touch each other.
+
+<!-- When the photo is ready: add images/3d-printing/good-first-layer.jpg and replace the box above with ![A good first layer: flat, slightly squished lines that touch each other.](../images/3d-printing/good-first-layer.jpg) -->
+
 ## Step 6: Finish
 
 1. **Let it cool.** Parts pop off more easily.
@@ -75,3 +96,11 @@ The first few minutes look like nothing is happening while it heats and calibrat
 3. **Remove supports** with pliers. Wear safety glasses.
 4. **Reset the printer:** clear scraps and put the plate back.
 5. **Measure it** with calipers and compare it to your Onshape dimensions.
+
+!!! success "You finished the 3D Printing badge!"
+    Your part is printed, cleaned up, and measured.
+
+    - Something went wrong? Check [Troubleshooting](troubleshooting.md).
+    - Still stuck? Find Jonathan, a peer mentor, or an instructor. See [Ask for Help](../help.md).
+
+**Next:** [Troubleshooting →](troubleshooting.md)

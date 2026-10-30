@@ -29,3 +29,5 @@ These rules apply to every machine in the WCC Engineering Lab.
 - **Fire in the laser:** press pause on the control panel, keep the lid closed, and get the instructor.
 - **Burn:** cool running water right away, then tell the instructor.
 - Know where the **fire extinguisher** and **first aid kit** are before you start.
+
+**Next:** Pick a badge: [3D Printing](3d-printing/index.md) · [Laser Cutting](laser-cutting/index.md) · [Soldering](soldering/index.md). New to CAD? Start with [Onshape](onshape/index.md).

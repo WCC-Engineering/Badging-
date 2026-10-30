@@ -1,5 +1,8 @@
 # Laser Cutting: Prepare the Machine
 
+!!! info "When to do this"
+    Do this when you get to the laser, **after** you finish your laser cut drawing and DXF (steps 1–3 of [Prepare Your Design](prepare-design.md)), and **before** you open CorelDRAW (step 4).
+
 Do these steps in order. Check each box as you go.
 
 ## The control panel
@@ -10,7 +13,7 @@ On the right side of the machine is a control panel you can use to control posit
 
 - **X / Y arrows** move the laser head left/right and in/out.
 - **Z arrows** move the **bed** up and down (not the laser head).
-- **START** runs the job.
+- **START** button: you won't use this one. You start your job from the **Rayjet software on the computer**.
 - **Blinking light** means the laser is active.
 
 ---
@@ -67,7 +70,9 @@ On the right side of the machine is a control panel you can use to control posit
 - [ ] Leave a small margin from the edge.
 - [ ] Check that your design fits between this point and the far edges of the sheet.
 
-!!! note "Instructor: please verify"
-    Check this step against how we position jobs in Rayjet Manager, and edit as needed.
+!!! image-soon "Image coming soon"
+    The laser head positioned over the top-left corner of the material, with a small margin from the edge.
 
-**Next:** [Prepare Your Design →](prepare-design.md)
+<!-- When the photo is ready: add images/laser/position-start.jpg and replace the box above with ![The laser head positioned over the top-left corner of the material, with a small margin from the edge.](../images/laser/position-start.jpg) -->
+
+**Machine ready?** [Go back to Prepare Your Design, Step 4 →](prepare-design.md#step-4-open-your-dxf-in-coreldraw)

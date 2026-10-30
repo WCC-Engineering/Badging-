@@ -52,3 +52,11 @@
 
 !!! question "Try it"
     Swap boards with a partner. Inspect every joint, name each problem you find, and suggest the fix.
+
+!!! success "You finished the Soldering badge!"
+    Your flashlight is built and every joint has been inspected.
+
+    - A joint doesn't look right? Use the table above to find the fix.
+    - Still stuck? Find Jonathan, a peer mentor, or an instructor. See [Ask for Help](../help.md).
+
+[:material-arrow-left: Back to Home](../index.md){ .md-button }

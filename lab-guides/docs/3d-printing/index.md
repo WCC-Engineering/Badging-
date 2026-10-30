@@ -2,20 +2,29 @@
 
 [:material-arrow-left: Back to Home](../index.md){ .md-button }
 
+**New to the lab?** Read the [Lab Rules](../lab-rules.md) first. They apply to every machine.
+
 Our printer is a **Bambu Lab X1-Carbon**. It builds parts one thin layer of melted plastic at a time.
 
-<!-- PHOTO: add images/3d-printing/x1c-in-lab.jpg, then replace this comment with:
-![The Bambu Lab X1-Carbon 3D printer in the WCC Engineering Lab.](../images/3d-printing/x1c-in-lab.jpg)
--->
+!!! image-soon "Image coming soon"
+    The Bambu Lab X1-Carbon 3D printer in the WCC Engineering Lab.
+
+<!-- When the photo is ready: add images/3d-printing/x1c-in-lab.jpg and replace the box above with ![The Bambu Lab X1-Carbon 3D printer in the WCC Engineering Lab.](../images/3d-printing/x1c-in-lab.jpg) -->
 
 !!! warning "Before you come to the printer"
+    The 3D printers are in **CAS 117**, the same room as the laser cutter.
+
     Have your part **finished and exported** from Onshape as an **STL or 3MF** file **before** you sit down at the printer's computer.
     **Don't use that computer to model.** Someone else may need it. See [Drawings & Export](../onshape/drawings-and-export.md).
 
 !!! info "Need a computer?"
     Engineering laptops are available for anyone to use in **Cascade, room 112**.
 
-## How it works: FDM
+## What is 3D printing?
+
+3D printing builds a part **one thin layer at a time**. It's an *additive* process: it adds material only where your part needs it, unlike a laser cutter, which removes material.
+
+### How it works: FDM
 
 **Fused Deposition Modeling** works like a very precise robotic hot glue gun:
 
@@ -34,16 +43,40 @@ Our printer is a **Bambu Lab X1-Carbon**. It builds parts one thin layer of melt
 | **Infill** | The pattern inside the part, rarely 100% solid |
 | **Supports** | Temporary scaffolding under overhangs |
 
-## Meet the X1-Carbon
+## The process
 
-| | |
-|---|---|
-| Build volume | 256 × 256 × 256 mm |
-| Nozzle | 0.4 mm hardened steel |
-| Max nozzle temperature | 300 °C |
-| Enclosure | Fully enclosed |
-| AMS | Holds up to 4 spools for color/material swaps |
-| Smart features | Automatic bed leveling; micro lidar and AI camera inspect the first layer and spot "spaghetti" failures |
+Every 3D print follows the same path:
+
+<div class="flow" markdown>
+<div class="flow__group">
+<p class="flow__where">Before lab · any computer (engineering laptops in Cascade 112)</p>
+<ol class="flow__steps">
+<li><span class="flow__app">Onshape</span>Design your part</li>
+<li><span class="flow__app">Onshape</span>Export it as an <strong>STL or 3MF</strong></li>
+</ol>
+</div>
+<div class="flow__group">
+<p class="flow__where">At the printer · CAS 117</p>
+<ol class="flow__steps" style="--flow-start: 2">
+<li><span class="flow__app">Bambu Studio</span><strong>Slice</strong> it into layers and check the preview</li>
+<li><span class="flow__app">Bambu Studio → Printer</span><strong>Send</strong> the print</li>
+<li><span class="flow__app">Printer</span><strong>Watch the first layer</strong></li>
+<li><span class="flow__app">You</span>Let it cool, remove supports, measure</li>
+</ol>
+</div>
+</div>
+
+The [Step-by-Step](steps.md) page walks through each step.
+
+??? info "Printer specs (click to open)"
+    | | |
+    |---|---|
+    | Build volume | 256 × 256 × 256 mm |
+    | Nozzle | 0.4 mm hardened steel |
+    | Max nozzle temperature | 300 °C |
+    | Enclosure | Fully enclosed |
+    | AMS | Holds up to 4 spools for color/material swaps |
+    | Smart features | Automatic bed leveling; micro lidar and AI camera inspect the first layer and spot "spaghetti" failures |
 
 ## Design for 3D printing
 

@@ -52,6 +52,7 @@ markdown_extensions:
 nav:
   - Home:
       - Welcome: index.md
+      - What Is a Badge?: what-is-a-badge.md
       - Lab Rules: lab-rules.md
   - Onshape:
       - Getting Started: onshape/index.md
@@ -63,8 +64,8 @@ nav:
       - Troubleshooting: 3d-printing/troubleshooting.md
   - Laser Cutting:
       - Overview & Safety: laser-cutting/index.md
-      - Prepare the Machine: laser-cutting/prepare-machine.md
       - Prepare Your Design: laser-cutting/prepare-design.md
+      - Prepare the Machine: laser-cutting/prepare-machine.md
       - Troubleshooting: laser-cutting/troubleshooting.md
   - Soldering:
       - Overview & Safety: soldering/index.md

@@ -2,9 +2,14 @@
 
 [:material-arrow-left: Back to Home](../index.md){ .md-button }
 
+**New to the lab?** Read the [Lab Rules](../lab-rules.md) first. They apply to every machine.
+
 Soldering is a skill commonly used in electronics to connect components and create robust electrical connections. In this **Introduction to Soldering Micro Badge**, you'll learn the key concepts and tools, then build a **SparkFun Basic Flashlight Soldering Kit**.
 
-Soldering equipment is located in **CAS 113** and **CAS 117**.
+!!! warning "Before you start"
+    - **Where:** soldering stations in **CAS 113** and **CAS 117**
+    - **Bring:** your SparkFun Basic Flashlight Soldering Kit
+    - **Wear:** safety glasses the whole time
 
 ## What is soldering?
 
@@ -16,6 +21,25 @@ Soldering joins metal parts using a lower-melting metal (**solder**) to make a s
 
 !!! tip "The golden rule"
     **Heat the joint, not the solder.** If you melt solder onto a cold part, it won't stick.
+
+## The process
+
+Every soldering job follows the same path:
+
+<div class="flow" markdown>
+<div class="flow__group">
+<p class="flow__where">At the soldering station</p>
+<ol class="flow__steps">
+<li><span class="flow__app">Prep</span>Heat the iron, wet the sponge, fume absorber on</li>
+<li><span class="flow__app">Prep</span>Prep your wires or parts</li>
+<li><span class="flow__app">Clean & tin</span>Clean the tip and coat it with solder</li>
+<li><span class="flow__app">Solder</span>Heat the joint, feed solder, inspect</li>
+<li><span class="flow__app">Shut down</span>Tin the tip, unplug, clean up</li>
+</ol>
+</div>
+</div>
+
+The [Step-by-Step](steps.md) page walks through each step.
 
 ## Watch first
 

@@ -28,6 +28,11 @@ Draw the rough shape first. Don't worry about exact sizes yet.
 1. Press **D**, click a line or two points, and type the size you want.
 2. Add **constraints** to lock relationships, like *horizontal*, *vertical*, *coincident*, *equal*, or *tangent*. Onshape often adds these for you as you draw.
 
+!!! image-soon "Image coming soon"
+    An Onshape sketch showing blue (not fully defined) lines next to black (fully defined) lines.
+
+<!-- When the photo is ready: add images/onshape/sketch-blue-vs-black.jpg and replace the box above with ![An Onshape sketch showing blue (not fully defined) lines next to black (fully defined) lines.](../images/onshape/sketch-blue-vs-black.jpg) -->
+
 !!! tip "Blue vs. black"
     **Blue** lines aren't fully defined and can still move. **Black** lines are fully defined. Aim for an all-black sketch before you continue. It means your part is exactly the size you meant.
 
@@ -46,6 +51,11 @@ Draw the rough shape first. Don't worry about exact sizes yet.
 | **Pattern** | Repeats a feature in a row or circle |
 
 **To extrude:** click **Extrude**, select the sketch region, type a depth, and click **✓**. To cut, sketch on a face of your part, extrude, and choose **Remove**.
+
+!!! image-soon "Image coming soon"
+    The Extrude dialog in Onshape with a sketch region selected and a depth typed in.
+
+<!-- When the photo is ready: add images/onshape/extrude-dialog.jpg and replace the box above with ![The Extrude dialog in Onshape with a sketch region selected and a depth typed in.](../images/onshape/extrude-dialog.jpg) -->
 
 ## Step 5: Edit later
 

@@ -32,6 +32,11 @@ Review these steps **before** starting the soldering badge activity: the **Spark
 3. Close the strippers so they cut through the coating.
 4. With the jaws still closed, pull the coating off the end of the wire.
 
+!!! image-soon "Image coming soon"
+    Wire strippers with the wire placed in the notch that matches its gauge.
+
+<!-- When the photo is ready: add images/soldering/wire-strippers-gauge.jpg and replace the box above with ![Wire strippers with the wire placed in the notch that matches its gauge.](../images/soldering/wire-strippers-gauge.jpg) -->
+
 **B. Join wires.** Position the wires in your support equipment and twist the exposed strands together.
 
 **C. Flux.** Apply a small amount of flux to the areas to be soldered.
@@ -48,6 +53,11 @@ Review these steps **before** starting the soldering badge activity: the **Spark
 - [ ] **A. Check the tip.** Dark and crusty = oxidized. Shiny silver = ready. Not sure? Ask!
 - [ ] **B. Clean.** Once the iron is hot, wipe the tip on the damp sponge and/or brass wire cleaner until it's shiny.
 - [ ] **C. Tin.** Melt a small amount of solder onto the tip so it has a thin, even, shiny coat.
+
+!!! image-soon "Image coming soon"
+    Side by side: a dark, crusty, oxidized iron tip next to a shiny, tinned tip.
+
+<!-- When the photo is ready: add images/soldering/tip-dirty-vs-tinned.jpg and replace the box above with ![Side by side: a dark, crusty, oxidized iron tip next to a shiny, tinned tip.](../images/soldering/tip-dirty-vs-tinned.jpg) -->
 
 !!! tip
     Tin before and after each session, and as you go on long jobs. Tips last much longer when you do.
@@ -106,3 +116,5 @@ Review these steps **before** starting the soldering badge activity: the **Spark
 - [ ] Fume absorber off
 - [ ] Clean up clipped leads and solder bits; put tools back
 - [ ] Wash your hands
+
+**Next:** [Good vs. Bad Joints →](joints.md)

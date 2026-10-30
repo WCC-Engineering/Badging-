@@ -1,6 +1,8 @@
 # WCC Engineering Lab Badges
 
-Welcome! Each badge walks you through using a piece of equipment in the **WCC Engineering Lab**. Work through the badge for a machine **before** you come to lab. You'll get far more done, and you'll do it safely.
+Welcome! New here? Start with [What Is a Badge?](what-is-a-badge.md)
+
+Each badge walks you through using a piece of equipment in the **WCC Engineering Lab**. Work through the badge for a machine **before** you come to lab. You'll get far more done, and you'll do it safely.
 
 <div class="topic-cards">
   <a class="topic-card" href="onshape/">
@@ -12,7 +14,7 @@ Welcome! Each badge walks you through using a piece of equipment in the **WCC En
   <a class="topic-card" href="3d-printing/">
     <span class="topic-card__icon" aria-hidden="true">🖨️</span>
     <span class="topic-card__title">3D Printing</span>
-    <span class="topic-card__text">Bambu Lab X1-Carbon. Go from an Onshape part to a printed object.</span>
+    <span class="topic-card__text">Bambu Lab X1-Carbon in <strong>CAS 117</strong>. Go from an Onshape part to a printed object.</span>
     <span class="topic-card__go">Start here →</span>
   </a>
   <a class="topic-card" href="laser-cutting/">
@@ -31,11 +33,7 @@ Welcome! Each badge walks you through using a piece of equipment in the **WCC En
 
 ## How to earn a badge
 
-1. **Start with Onshape** if you're new to CAD. Every machine here starts from an Onshape design.
-2. **Read the Overview & Safety page** for the machine you'll use.
-3. **Take the badge's safety quiz in [Canvas](https://wcc.instructure.com/courses/2771437).** You need 100% to pass, and you can retake it as many times as you need.
-4. **Walk through the Step-by-Step page** so you know what to expect.
-5. **Bring the Step-by-Step page to lab** on your phone or laptop and follow along.
+See [What Is a Badge?](what-is-a-badge.md) for the steps. In short: read the badge, pass its safety quiz in Canvas, then follow the Step-by-Step pages in lab.
 
 !!! tip "Stuck?"
     Find Jonathan, any of the peer mentors, or an instructor to help! See [Ask for Help](help.md), or [send Jonathan a question](ask-a-question.md).

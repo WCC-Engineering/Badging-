@@ -12,7 +12,7 @@ Every machine in the lab starts from an Onshape design:
 !!! info "Need a computer?"
     Engineering laptops are available for anyone to use in **Cascade, room 112**.
 
-## 1. Make a free account
+## Step 1: Make a free account
 
 1. Go to [onshape.com/education](https://www.onshape.com/en/education/).
 2. Choose the free **Education** plan for students (not the Free/Hobbyist plan).
@@ -21,7 +21,7 @@ Every machine in the lab starts from an Onshape design:
 !!! tip
     Bookmark [cad.onshape.com](https://cad.onshape.com). That's where your documents live.
 
-## 2. How Onshape is organized
+## Step 2: How Onshape is organized
 
 | Term | What it is |
 |---|---|
@@ -32,7 +32,13 @@ Every machine in the lab starts from an Onshape design:
 | **Drawing** | A tab where you make a **2D engineering drawing** of your part. |
 | **Feature list** | The list on the left of every step you took. You can go back and edit any step. |
 
-## 3. Get around the screen
+## Step 3: Get around the screen
+
+!!! image-soon "Image coming soon"
+    The Onshape screen with the tabs, feature list, toolbar, and view cube labeled.
+
+<!-- When the photo is ready: add images/onshape/onshape-screen-labeled.jpg and replace the box above with ![The Onshape screen with the tabs, feature list, toolbar, and view cube labeled.](../images/onshape/onshape-screen-labeled.jpg) -->
+
 
 | To do this | Do this |
 |---|---|
@@ -45,7 +51,7 @@ Every machine in the lab starts from an Onshape design:
 !!! info "Mouse recommended"
     Onshape works with a trackpad, but a mouse with a scroll wheel makes it much easier.
 
-## 4. Name and share your work
+## Step 4: Name and share your work
 
 - **Name your document** right away: *Your Name - Project Name*.
 - To share with your instructor: click **Share** (top right), type their email, and choose **Can view** or **Can edit**.

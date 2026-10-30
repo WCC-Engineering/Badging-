@@ -7,3 +7,7 @@
 | Holes or slots too tight | No clearance for the printer's tolerance | Add 0.2–0.3 mm in Onshape and reprint |
 | Supports won't come off | Supports touching too much of the part | Reorient to need fewer supports; use tree supports |
 | Part snapped along a layer | The load pulled the layers apart | Rotate so the layers run along the load; add walls |
+
+Still stuck? Find Jonathan, a peer mentor, or an instructor. See [Ask for Help](../help.md).
+
+[:material-arrow-left: Back to Home](../index.md){ .md-button }
