@@ -2,8 +2,6 @@
 
 Your design goes through **three programs** on its way to the laser:
 
-*Just engraving text or a picture? Skip Onshape and see [How to Engrave](engrave.md).*
-
 <div class="flow" markdown>
 <div class="flow__group">
 <p class="flow__where">Before lab · any computer (engineering laptops in Cascade 112)</p>
@@ -18,6 +16,7 @@ Your design goes through **three programs** on its way to the laser:
 <ol class="flow__steps" style="--flow-start: 3">
 <li><span class="flow__app">CorelDRAW</span>Open your DXF</li>
 <li><span class="flow__app">CorelDRAW</span><strong>Change line colors</strong> to cut or engrave</li>
+<li><span class="flow__app">CorelDRAW</span><em>Optional:</em> add <strong>text or a picture</strong> to engrave</li>
 <li><span class="flow__app">CorelDRAW → Rayjet Manager</span><strong>File → Print</strong> sends your design to Rayjet Manager</li>
 <li><span class="flow__app">Rayjet Manager → Laser</span>Send the job to the laser and press <strong>START</strong></li>
 </ol>
@@ -109,7 +108,48 @@ The **line color** tells the laser what to do with each line:
 
 </div>
 
-## Step 6: Send it from CorelDRAW to Rayjet Manager
+## Step 6: Add text or a picture to engrave (optional)
+
+Want a name, label, or picture on your parts? Add it **here in CorelDRAW**, on top of your cut parts, in the **same file**. You **don't** add engraving in Onshape, and you don't need a separate job: it all runs at the same time you cut your pieces.
+
+=== "Text"
+
+    1. Click the **Text tool** (the **A** in the left toolbar).
+    2. Click on a part and type. Pick a **font** and **size** in the toolbar.
+    3. Drag the text where you want it on the part.
+
+    !!! tip
+        Thick, bold fonts engrave best. Very thin or tiny letters can disappear.
+
+    !!! image-soon "Image coming soon"
+        CorelDRAW with text typed on top of a cut part.
+
+    <!-- When the photo is ready: add images/laser/coreldraw-text.jpg and replace the box above with ![CorelDRAW with text typed on top of a cut part.](../images/laser/coreldraw-text.jpg) -->
+
+=== "Picture"
+
+    1. **File → Import** and choose your picture (JPG or PNG).
+    2. Place it on a part, then drag a corner to resize it.
+
+    !!! tip
+        Simple, high-contrast pictures (like a logo or a black-and-white drawing) engrave best. Use your own picture or one you have permission to use.
+
+    !!! image-soon "Image coming soon"
+        A picture imported into CorelDRAW and placed on top of a cut part.
+
+    <!-- When the photo is ready: add images/laser/coreldraw-picture.jpg and replace the box above with ![A picture imported into CorelDRAW and placed on top of a cut part.](../images/laser/coreldraw-picture.jpg) -->
+
+Then set its color so the laser knows what to do:
+
+| You want to… | Make it |
+|---|---|
+| Fill in text, a logo, or a picture | :black_circle: **Black** fill (Raster Engrave) |
+| Draw a thin line on the surface | :blue_circle: **Blue** outline (Vector Engrave / etch) |
+
+!!! info "Engraving happens first"
+    The laser engraves first and cuts last, so your parts don't shift before the engraving is done.
+
+## Step 7: Send it from CorelDRAW to Rayjet Manager
 
 In CorelDRAW, choose **File → Print**. This sends your design to the **Rayjet Manager** software.
 
@@ -119,7 +159,7 @@ In CorelDRAW, choose **File → Print**. This sends your design to the **Rayjet 
 <!-- When the photo is ready: add images/laser/coreldraw-print.jpg and replace the box above with ![The CorelDRAW Print window with the Rayjet laser selected as the printer.](../images/laser/coreldraw-print.jpg) -->
 
 
-## Step 7: Send it from Rayjet Manager to the laser
+## Step 8: Send it from Rayjet Manager to the laser
 
 Go to **Rayjet Manager**.
 

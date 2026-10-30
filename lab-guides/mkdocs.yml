@@ -65,7 +65,6 @@ nav:
   - Laser Cutting:
       - Overview & Safety: laser-cutting/index.md
       - Prepare Your Design: laser-cutting/prepare-design.md
-      - How to Engrave: laser-cutting/engrave.md
       - Prepare the Machine: laser-cutting/prepare-machine.md
       - Troubleshooting: laser-cutting/troubleshooting.md
   - Soldering:

@@ -73,6 +73,4 @@ Everything is in the **feature list** on the left. Double-click any sketch or fe
     Want your design bigger or smaller? **Don't use Onshape's Transform (scale) feature.** Scaling shrinks or grows **every** dimension, including the slots and tabs that are sized to your material's thickness.
     Your sheet doesn't get thinner or thicker, so the scaled slots won't match it and the parts **won't fit together**.
 
-    **Instead:** change the sizes in your sketches, and keep slot and tab widths equal to your sheet thickness. A `#thickness` variable makes this easy (see Step 5 above). The same goes for resizing your design in CorelDRAW.
-
 **Next:** [Drawings & Export →](drawings-and-export.md)

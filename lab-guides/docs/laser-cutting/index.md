@@ -56,6 +56,7 @@ Every laser job follows the same path through three programs:
 <ol class="flow__steps" style="--flow-start: 3">
 <li><span class="flow__app">CorelDRAW</span>Open your DXF</li>
 <li><span class="flow__app">CorelDRAW</span><strong>Change line colors</strong> to cut or engrave</li>
+<li><span class="flow__app">CorelDRAW</span><em>Optional:</em> add <strong>text or a picture</strong> to engrave</li>
 <li><span class="flow__app">CorelDRAW → Rayjet Manager</span><strong>File → Print</strong> sends your design to Rayjet Manager</li>
 <li><span class="flow__app">Rayjet Manager → Laser</span>Send the job to the laser and press <strong>START</strong></li>
 </ol>
@@ -64,8 +65,8 @@ Every laser job follows the same path through three programs:
 
 The [Prepare Your Design](prepare-design.md) page walks through each step.
 
-!!! tip "Just engraving text or a picture?"
-    You **don't need Onshape**. You can do it all in CorelDRAW. See [How to Engrave](engrave.md).
+!!! tip "Adding text or a picture?"
+    Cut your parts from Onshape as usual, then add the text or picture **in CorelDRAW** (step 6) and engrave it in the **same job** as your cut. See [Prepare Your Design](prepare-design.md#step-6-add-text-or-a-picture-to-engrave-optional).
 
 ## Cut, etch, or engrave?
 
@@ -83,22 +84,30 @@ The laser engraves first and cuts last, so parts don't shift before the engravin
 
 ## What can go in the laser?
 
-=== "OK with approval"
+!!! danger "Ask before you cut ANY material"
+    **Always get your material approved by Jonathan or an instructor before you cut it, even if it's on the OK list.** Bringing your own material? Get it approved first.
+    Some materials give off **toxic gas** or **catch fire** in the laser, and many of them look alike.
 
+<div class="grid" markdown>
+
+!!! success "OK, with approval"
     - Plywood (thin, laser-grade)
     - MDF
     - Cast acrylic
     - Cardboard, chipboard, paper
     - Natural leather, cork, felt
 
-=== "NEVER"
+!!! failure "NEVER put these in the laser"
+    | Material | Why it's dangerous |
+    |---|---|
+    | **PVC / vinyl** | Releases **chlorine gas**, which is toxic to breathe and damages the machine |
+    | **Polycarbonate (Lexan)** | **Catches fire** and doesn't cut cleanly |
+    | **ABS, HDPE** | **Melt and catch fire** |
+    | **Fiberglass, coated carbon fiber** | Give off **harmful fumes and dust** |
+    | **Metal** | **Reflects the beam** and won't cut |
+    | **Anything you can't identify** | It could be any of the above. **Ask first.** |
 
-    - **PVC / vinyl:** releases chlorine gas
-    - **Polycarbonate (Lexan):** catches fire, doesn't cut cleanly
-    - **ABS, HDPE:** melt and catch fire
-    - **Fiberglass, coated carbon fiber**
-    - **Metal:** reflects the beam, won't cut
-    - **Anything you can't identify.** No ID, no cut.
+</div>
 
 ## Safety
 
@@ -113,31 +122,19 @@ The laser engraves first and cuts last, so parts don't shift before the engravin
 ## Design tips for laser cutting
 
 - **Think in flat parts.** Build 3D shapes by slotting flat parts together (tab & slot, finger joints).
-- **Measure your sheet with calipers.** "1/8 in" plywood is rarely exactly 3.175 mm.
-- **Account for kerf.** The beam burns away about 0.2 mm, so slots come out a little loose.
+- **Measure your sheet's length and width** with a ruler or tape measure, so your parts fit on it and your CorelDRAW page matches it.
+- **Account for kerf.** The beam burns away a thin strip of material, so slots come out a little loose. How much depends on the material and how the laser is set up, so **don't rely on a set number. Do a test fit for your own project**: cut one small slot and tab from your material, check the fit, and adjust your Onshape sizes before cutting the whole thing.
 - **Leave 2–3 mm between parts.**
 - **Keep features at least as thick as the sheet.**
-- **Watch for islands.** The middle of an "O" falls out when cut. Engrave text instead.
 
 !!! warning "Don't use Transform to scale a laser-cut design"
     Want your design bigger or smaller? **Don't use Onshape's Transform (scale) feature.** Scaling shrinks or grows **every** dimension, including the slots and tabs that are sized to your material's thickness.
     Your sheet doesn't get thinner or thicker, so the scaled slots won't match it and the parts **won't fit together**.
 
-    **Instead:** change the sizes in your sketches, and keep slot and tab widths equal to your sheet thickness. A `#thickness` variable makes this easy (see [Sketch to Part](../onshape/sketch-to-part.md#step-5-edit-later)). The same goes for resizing your design in CorelDRAW.
-
 ### See the difference
 
-<div class="grid" markdown>
-
-![Good: a slot drawn one kerf narrower holds the tab snugly. Bad: a slot drawn exactly the sheet thickness comes out loose and wobbly.](../images/laser/tip-kerf.svg)
-
-![Good: 2 to 3 millimeters between parts. Bad: parts touching, which scorches and lets parts fall through.](../images/laser/tip-spacing.svg)
-
-![Good: a tab at least as thick as the sheet. Bad: a tab thinner than the sheet snaps off.](../images/laser/tip-feature-thickness.svg)
-
-![Good: text engraved in black. Bad: cutting the letter O, so the center falls out.](../images/laser/tip-islands.svg)
-
-</div>
+!!! image-soon "Image coming soon"
+    Side-by-side examples of good and bad laser cut designs: kerf and slot fit, spacing between parts, and feature thickness.
 
 !!! quiz "Required: Now take the safety quiz in Canvas"
     Done reviewing this page? [Go to Canvas](https://wcc.instructure.com/courses/2771437) and take the **Laser Cutting Badge: Safety Quiz**. You need **100%** to pass, and you can retake it as many times as you need. You must pass it before you use the equipment.

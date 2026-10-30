@@ -83,7 +83,7 @@ The [Step-by-Step](steps.md) page walks through each step.
 - **Big flat face down.** A large, flat bottom sticks to the plate and needs no supports.
 - **The 45° rule.** Overhangs steeper than ~45° from vertical need supports.
 - **Walls ≥ 0.8 mm.** That's two nozzle widths.
-- **Leave clearance.** Parts that fit together need a 0.2–0.3 mm gap.
+- **Leave clearance.** Parts that fit together need a gap. **Start with 0.2–0.3 mm** for PLA on our printer, then **test fit** (see below).
 - **Fit the cube.** Max 256 mm on each side, and smaller prints finish faster.
 - **Details ≥ 1 mm.** Tiny text and features get lost.
 
@@ -99,10 +99,13 @@ The [Step-by-Step](steps.md) page walks through each step.
 
 </div>
 
+!!! tip "Test fit before you print the whole thing"
+    Plastic shrinks a little as it cools, so **holes and slots often print a bit smaller** than you drew them, and pegs a bit bigger. If your project has parts that fit together, **print just the fitting section first** (a small piece with the hole and a short peg). Check the fit, adjust the gap in Onshape, then print the full part. It saves time and filament.
+
 !!! tip "Layers are the weak spot"
     Parts are strongest *along* their layers and weakest *between* them. Orient your part so the load doesn't pull the layers apart.
 
-![Good: a load pressing along the layers. Bad: a load that pulls the layers apart, so the part snaps between layers.](../images/3d-printing/layer-strength.svg){ width="480" }
+![The same beam sticking out from a wall with a load on its end. Printed lying down, the layers run along the beam and it is strong. Printed standing up, the layers stack across the beam and it snaps at the wall, between layers.](../images/3d-printing/layer-strength.svg){ width="480" }
 
 ## Safety
 

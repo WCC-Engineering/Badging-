@@ -6,7 +6,7 @@
 | Line was engraved, not cut | Line too thick or not exactly red | Re-select the lines and right-click the RED swatch |
 | Part is the wrong size | Drawing not 1:1, or DXF imported in the wrong units | Set the drawing to 1:1; check W and H in CorelDRAW |
 | Border or dimensions got cut | Drawing extras left in the file | Delete them in CorelDRAW before printing |
-| Slots too loose | Kerf not accounted for | Make slots about one kerf narrower; cut a small test strip first |
+| Slots too loose or too tight | Kerf not accounted for | Cut a small test fit from your material, measure it, and adjust your slot sizes in Onshape |
 
 Still stuck? Find Jonathan, a peer mentor, or an instructor. Don't guess with the laser. See [Ask for Help](../help.md).
 
