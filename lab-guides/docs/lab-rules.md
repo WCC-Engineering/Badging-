@@ -4,9 +4,8 @@ These rules apply to every machine in the WCC Engineering Lab.
 
 ## Before you use any machine
 
-- [ ] I've read the guide for this machine.
+- [ ] I've completed the badge for this machine.
 - [ ] I've passed the safety quiz in Canvas.
-- [ ] I've been trained or signed off by my instructor or lab staff.
 - [ ] My design/file is ready **before** I sit down at the lab computer.
 
 ## Always
@@ -20,7 +19,7 @@ These rules apply to every machine in the WCC Engineering Lab.
 
 ## Never
 
-- Never put an unknown material in the laser cutter. **No ID, no cut.**
+- Never put an unknown material in the laser cutter.
 - Never open the laser cutter lid while it's running.
 - Never catch a falling soldering iron. Let it drop and step back.
 - Never eat or drink at a soldering station.

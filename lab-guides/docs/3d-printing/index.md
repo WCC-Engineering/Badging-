@@ -1,6 +1,19 @@
 # 3D Printing: Overview & Safety
 
+[:material-arrow-left: Back to Home](../index.md){ .md-button }
+
 Our printer is a **Bambu Lab X1-Carbon**. It builds parts one thin layer of melted plastic at a time.
+
+<!-- PHOTO: add images/3d-printing/x1c-in-lab.jpg, then replace this comment with:
+![The Bambu Lab X1-Carbon 3D printer in the WCC Engineering Lab.](../images/3d-printing/x1c-in-lab.jpg)
+-->
+
+!!! warning "Before you come to the printer"
+    Have your part **finished and exported** from Onshape as an **STL or 3MF** file **before** you sit down at the printer's computer.
+    **Don't use that computer to model.** Someone else may need it. See [Drawings & Export](../onshape/drawings-and-export.md).
+
+!!! info "Need a computer?"
+    Engineering laptops are available for anyone to use in **Cascade, room 112**.
 
 ## How it works: FDM
 
@@ -51,5 +64,10 @@ Our printer is a **Bambu Lab X1-Carbon**. It builds parts one thin layer of melt
 - **Hands off the controls.** Ask before changing filament, settings, or canceling someone else's print.
 - **Safety glasses** when cutting or snapping off supports.
 - **Log your print** and **report problems** (weird noises, smells, errors) right away.
+
+!!! success "Now take the safety quiz in Canvas"
+    Done reviewing this page? [Go to Canvas](https://wcc.instructure.com/courses/2771437) and take the **3D Printing Badge: Safety Quiz**. You need **100%** to pass, and you can retake it as many times as you need. You must pass it before you use the equipment.
+
+    [:material-open-in-new: Take the quiz in Canvas](https://wcc.instructure.com/courses/2771437){ .md-button .md-button--primary }
 
 **Next:** [Step-by-Step →](steps.md)

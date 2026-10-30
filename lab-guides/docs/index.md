@@ -1,6 +1,6 @@
-# WCC Engineering Lab Guides
+# WCC Engineering Lab Badges
 
-Welcome! These guides walk you through using the equipment in the **WCC Engineering Lab**. Read through the guide for a machine **before** you come to lab. You'll get far more done, and you'll do it safely.
+Welcome! Each badge walks you through using a piece of equipment in the **WCC Engineering Lab**. Work through the badge for a machine **before** you come to lab. You'll get far more done, and you'll do it safely.
 
 <div class="topic-cards">
   <a class="topic-card" href="onshape/">
@@ -29,20 +29,16 @@ Welcome! These guides walk you through using the equipment in the **WCC Engineer
   </a>
 </div>
 
-## How to use these guides
+## How to earn a badge
 
 1. **Start with Onshape** if you're new to CAD. Every machine here starts from an Onshape design.
 2. **Read the Overview & Safety page** for the machine you'll use.
-3. **Complete the matching quiz in Canvas.** Your instructor will tell you which one.
+3. **Take the badge's safety quiz in [Canvas](https://wcc.instructure.com/courses/2771437).** You need 100% to pass, and you can retake it as many times as you need.
 4. **Walk through the Step-by-Step page** so you know what to expect.
 5. **Bring the Step-by-Step page to lab** on your phone or laptop and follow along.
 
-!!! tip "Stuck? You're not on your own"
-    Lab staff, instructors, and peer mentors are here to help. See [Ask for Help](help.md).
+!!! tip "Stuck?"
+    Find Jonathan, any of the peer mentors, or an instructor to help! See [Ask for Help](help.md), or [send Jonathan a question](ask-a-question.md).
 
 !!! warning "Never use a machine you haven't been trained on"
-    These guides prepare you. They don't replace hands-on training from your instructor or lab staff.
-
-## Found something wrong or out of date?
-
-Machines and software change. If a step doesn't match what you see in the lab, please tell your instructor or a peer mentor. See [Ask for Help](help.md).
+    Badges prepare you. They don't replace hands-on training from your instructor or lab staff.

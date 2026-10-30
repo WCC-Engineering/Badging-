@@ -12,7 +12,7 @@ You will be using **Onshape**, **CorelDRAW**, and **Rayjet Manager** to laser cu
 ![The Onshape Export Drawing dialog with the file name Student Name - Project and DXF selected in the format list.](../images/laser/onshape-export-dxf.jpg){ width="380" }
 
 !!! warning "Scale must be 1:1"
-    If your drawing isn't 1:1, the laser cuts the wrong size. Drawings also export the border, title block and dimensions; you'll delete those in CorelDRAW.
+    If your drawing isn't 1:1, the laser cuts the wrong size. Your drawing should already be a blank sheet. If a border, title block, or dimensions got in, delete them in CorelDRAW.
 
 ## 2) Open Rayjet Manager
 

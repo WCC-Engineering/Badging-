@@ -33,6 +33,10 @@ A **slicer** turns your 3D model into hundreds of thin layers and the exact path
 7. **Check settings** (table below).
 8. Click **Slice plate**, then check the **Preview** tab.
 
+<!-- PHOTO: add images/3d-printing/slicer-preview.jpg, then replace this comment with:
+![A sliced part in the Bambu Studio Preview tab, showing layers and supports.](../images/3d-printing/slicer-preview.jpg)
+-->
+
 | Setting | Start with | Change it when… |
 |---|---|---|
 | Layer height | 0.20 mm | 0.12 for fine detail; 0.28 for a fast draft |

@@ -1,8 +1,8 @@
-# WCC Engineering Lab Guides
+# WCC Engineering Lab Badges
 
-How-to guides for the 3D printer, laser cutter, and soldering stations in the WCC Engineering Lab.
+Badges for the 3D printer, laser cutter, and soldering stations in the WCC Engineering Lab.
 
-**Live site:** https://cbolandedu.github.io/Badging-/
+**Live site:** https://wcc-engineering.github.io/Badging-/
 
 ## Editing
 

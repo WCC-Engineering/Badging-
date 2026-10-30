@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="Bridge: solder connects two pads">
+<title>Bridge: solder connects two pads</title>
+<defs><linearGradient id="shiny" x1="0" x2="1" y1="0" y2="1">
+<stop offset="0" stop-color="#F4F6F8"/><stop offset=".45" stop-color="#C9CED4"/><stop offset="1" stop-color="#8E959D"/></linearGradient>
+<pattern id="grain" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#9EA3A8"/><circle cx="1.5" cy="1.5" r="1" fill="#7E838A"/><circle cx="4.5" cy="4" r=".9" fill="#B4B8BD"/></pattern></defs>
+<rect width="320" height="220" rx="12" fill="#FFFFFF"/>
+<rect x="30" y="150" width="260" height="26" fill="#2E7D4F"/><rect x="66" y="144" width="68" height="6" fill="#C77A2E"/><rect x="186" y="144" width="68" height="6" fill="#C77A2E"/><path d="M70 144 Q90 138 96 80 L104 80 Q112 112 160 118 Q208 112 216 80 L224 80 Q230 138 250 144 Z" fill="url(#shiny)" stroke="#7A8088"/><rect x="96" y="40" width="8" height="150" fill="#8A8F96"/><rect x="216" y="40" width="8" height="150" fill="#8A8F96"/>
+<text x="160.0" y="208" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#555">side view (cut through the board)</text>
+</svg>

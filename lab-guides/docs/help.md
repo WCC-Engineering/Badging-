@@ -1,5 +1,7 @@
 # Ask for Help
 
+Prefer to write it down? [Ask a Question](ask-a-question.md) and it goes straight to Jonathan.
+
 ## Lab Tech
 
 **Jonathan Van Hyning**  
@@ -7,11 +9,12 @@
 
 ## Engineering Peer Mentors
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
+- Alec
+- Austin
+- Colton
+- Cooper
+- Owen
+- Paul
+- Saul
 
 ## Instructors

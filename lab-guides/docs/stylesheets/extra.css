@@ -68,3 +68,31 @@ a.topic-card:hover .topic-card__go { text-decoration: underline; }
   -webkit-mask-image: var(--md-admonition-icon--person);
           mask-image: var(--md-admonition-icon--person);
 }
+
+/* Ask a Question form */
+.md-typeset .ask-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  max-width: 34rem;
+  margin: 1.5rem 0;
+}
+.md-typeset .ask-form label { font-weight: 700; margin-top: 0.6rem; }
+.md-typeset .ask-form input,
+.md-typeset .ask-form select,
+.md-typeset .ask-form textarea {
+  font: inherit;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 6px;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+.md-typeset .ask-form input:focus,
+.md-typeset .ask-form select:focus,
+.md-typeset .ask-form textarea:focus {
+  outline: 3px solid var(--md-accent-fg-color);
+  outline-offset: 1px;
+}
+.md-typeset .ask-form button { align-self: flex-start; margin-top: 1rem; cursor: pointer; }
+.md-typeset .ask-form__error { color: var(--md-accent-fg-color); font-weight: 700; margin: 0.4rem 0 0; }

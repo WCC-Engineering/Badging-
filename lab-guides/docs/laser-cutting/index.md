@@ -1,18 +1,37 @@
 # Laser Cutting: Overview & Safety
 
+[:material-arrow-left: Back to Home](../index.md){ .md-button }
+
 The laser cutter available for student use is in the WCC Engineering Lab, **CAS 117**. It's a **TROTEC Rayjet 300**, a CO₂ laser with a bed size of **29" × 17"**.
 
 ![The Trotec Rayjet 300 laser cutter on its stand in CAS 117, with the lid closed.](../images/laser/rayjet-in-lab.jpg)
 
-!!! question "Before you laser cut…"
-    Have you completed a **drawing of your design** in Onshape? It's required to use the laser cutter.
-    **If not, go do that before taking up the CAS 117 computer.**
+!!! warning "Before you come to the laser cutter"
+    You need a **finished laser cut drawing** in Onshape **before** you sit down at the CAS 117 computer:
+
+    - A **blank sheet**: no border, no title block, no dimensions
+    - One **1:1 view of each part** you want cut
+    - Ready to **export as a DXF**
+
+    **Don't use the CAS 117 computer to model or draw.** Someone else may be waiting to cut. See [Drawings & Export](../onshape/drawings-and-export.md).
+
+!!! info "Need a computer?"
+    Engineering laptops are available for anyone to use in **Cascade, room 112**.
 
 ## How a laser cutter works
 
 A **CO₂ laser tube** makes an invisible infrared beam. **Mirrors** bounce it to the cutting head, where a **lens** focuses it to a tiny, very hot spot. The material **burns or vaporizes** along the path, and the **ventilation fan** pulls the smoke out.
 
 It's a *subtractive* process: it removes material, unlike a 3D printer, which adds it.
+
+!!! info "The laser only cuts straight down"
+    The beam always points **straight down** through the material. Every cut edge comes out **vertical (90° to the sheet)**.
+    The laser **can't** cut angles, bevels, or chamfers through the thickness, and it can't cut a 3D shape. It cuts a flat outline, like a cookie cutter.
+    Need an angled or 3D part? Build it from flat parts that slot together, or 3D print it instead.
+
+<!-- VIDEO: add a video of the laser cutting here. For a YouTube video, replace this comment with:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" title="Laser cutter cutting plywood" frameborder="0" allowfullscreen></iframe>
+-->
 
 ## Cut, etch, or engrave?
 
@@ -65,5 +84,10 @@ The laser engraves first and cuts last, so parts don't shift before the engravin
 - **Leave 2–3 mm between parts.**
 - **Keep features at least as thick as the sheet.**
 - **Watch for islands.** The middle of an "O" falls out when cut. Engrave text instead.
+
+!!! success "Now take the safety quiz in Canvas"
+    Done reviewing this page? [Go to Canvas](https://wcc.instructure.com/courses/2771437) and take the **Laser Cutting Badge: Safety Quiz**. You need **100%** to pass, and you can retake it as many times as you need. You must pass it before you use the equipment.
+
+    [:material-open-in-new: Take the quiz in Canvas](https://wcc.instructure.com/courses/2771437){ .md-button .md-button--primary }
 
 **Next:** [Prepare the Machine →](prepare-machine.md)

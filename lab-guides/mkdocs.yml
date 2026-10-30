@@ -1,7 +1,7 @@
-site_name: WCC Engineering Lab Guides
-site_description: How-to guides for Onshape, the 3D printer, laser cutter, and soldering stations in the WCC Engineering Lab.
-site_url: https://cbolandedu.github.io/Badging-/
-repo_url: https://github.com/cbolandedu/Badging-
+site_name: WCC Engineering Lab Badges
+site_description: Badges for Onshape, the 3D printer, laser cutter, and soldering stations in the WCC Engineering Lab.
+site_url: https://wcc-engineering.github.io/Badging-/
+repo_url: https://github.com/WCC-Engineering/Badging-
 edit_uri: edit/main/lab-guides/docs/
 
 theme:
@@ -70,4 +70,6 @@ nav:
       - Overview & Safety: soldering/index.md
       - Step-by-Step: soldering/steps.md
       - Good vs. Bad Joints: soldering/joints.md
-  - Ask for Help: help.md
+  - Ask for Help:
+      - Who to Ask: help.md
+      - Ask a Question: ask-a-question.md

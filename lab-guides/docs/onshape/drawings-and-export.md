@@ -23,8 +23,8 @@ Then follow the [3D Printing Step-by-Step](../3d-printing/steps.md).
 ### Make the drawing
 
 1. Click the **+** at the bottom left (next to the tabs) and choose **Create Drawing**.
-2. Pick your part. For laser cutting, choose a template **without a border or title block** if one is offered. Otherwise you'll delete those later.
-3. Place a single **view of the flat face** you want cut (usually the **Top** view).
+2. Pick your part. Start from a **blank sheet: no border and no title block**.
+3. Place one **view of the flat face** of **each part** you want cut (usually the **Top** view).
 4. Set the view's **scale to 1:1**. Click the view and check its scale.
 
 !!! danger "1:1 or the laser cuts the wrong size"

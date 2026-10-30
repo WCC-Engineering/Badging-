@@ -1,5 +1,7 @@
 # Soldering: Overview & Safety
 
+[:material-arrow-left: Back to Home](../index.md){ .md-button }
+
 Soldering is a skill commonly used in electronics to connect components and create robust electrical connections. In this **Introduction to Soldering Micro Badge**, you'll learn the key concepts and tools, then build a **SparkFun Basic Flashlight Soldering Kit**.
 
 Soldering equipment is located in **CAS 113** and **CAS 117**.
@@ -57,5 +59,10 @@ Hot metal **oxidizes** within seconds, forming a dark layer that solder won't st
 - **Turn off and unplug** the iron when you're done.
 - **Burned?** Cool running water right away, then tell the instructor.
 - Know where the **fire extinguisher** (rated for electrical fires) and the **first aid kit** are.
+
+!!! success "Now take the safety quiz in Canvas"
+    Done reviewing this page? [Go to Canvas](https://wcc.instructure.com/courses/2771437) and take the **Soldering Badge: Safety Quiz**. You need **100%** to pass, and you can retake it as many times as you need. You must pass it before you use the equipment.
+
+    [:material-open-in-new: Take the quiz in Canvas](https://wcc.instructure.com/courses/2771437){ .md-button .md-button--primary }
 
 **Next:** [Step-by-Step →](steps.md)

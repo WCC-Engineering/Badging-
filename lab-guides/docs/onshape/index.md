@@ -1,5 +1,7 @@
 # Onshape: Getting Started
 
+[:material-arrow-left: Back to Home](../index.md){ .md-button }
+
 **Onshape** is a professional CAD (computer-aided design) program that runs in your web browser. There's nothing to install, your work saves automatically, and it works on lab computers, laptops, and Chromebooks.
 
 Every machine in the lab starts from an Onshape design:
@@ -7,11 +9,14 @@ Every machine in the lab starts from an Onshape design:
 - **3D Printing:** export your *part* as STL or 3MF
 - **Laser Cutting:** export a *drawing* as DXF
 
+!!! info "Need a computer?"
+    Engineering laptops are available for anyone to use in **Cascade, room 112**.
+
 ## 1. Make a free account
 
 1. Go to [onshape.com/education](https://www.onshape.com/en/education/).
 2. Choose the free **Education** plan for students (not the Free/Hobbyist plan).
-3. Sign up with your **school email** if you can.
+3. Sign up with your **WCC school email**.
 
 !!! tip
     Bookmark [cad.onshape.com](https://cad.onshape.com). That's where your documents live.
