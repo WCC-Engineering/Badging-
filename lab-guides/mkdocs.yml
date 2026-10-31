@@ -2,7 +2,6 @@ site_name: WCC Engineering Lab Badges
 site_description: Badges for Onshape, the 3D printer, laser cutter, and soldering stations in the WCC Engineering Lab.
 site_url: https://wcc-engineering.github.io/Badging-/
 repo_url: https://github.com/WCC-Engineering/Badging-
-edit_uri: edit/main/lab-guides/docs/
 
 theme:
   name: material
@@ -22,10 +21,8 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    - navigation.footer
     - navigation.top
     - search.highlight
-    - content.action.edit
   icon:
     logo: material/wrench
 
@@ -61,14 +58,17 @@ nav:
   - 3D Printing:
       - Overview & Safety: 3d-printing/index.md
       - Step-by-Step: 3d-printing/steps.md
+      - Check Your Knowledge: 3d-printing/check-your-knowledge.md
       - Troubleshooting: 3d-printing/troubleshooting.md
   - Laser Cutting:
       - Overview & Safety: laser-cutting/index.md
       - Prepare Your Design: laser-cutting/prepare-design.md
       - Prepare the Machine: laser-cutting/prepare-machine.md
+      - Check Your Knowledge: laser-cutting/check-your-knowledge.md
       - Troubleshooting: laser-cutting/troubleshooting.md
   - Soldering:
       - Overview & Safety: soldering/index.md
       - Step-by-Step: soldering/steps.md
       - Good vs. Bad Joints: soldering/joints.md
+      - Check Your Knowledge: soldering/check-your-knowledge.md
   - Ask for Help: help.md

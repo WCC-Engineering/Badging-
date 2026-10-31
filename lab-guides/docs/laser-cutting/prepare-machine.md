@@ -1,7 +1,7 @@
 # Laser Cutting: Prepare the Machine
 
 !!! info "When to do this"
-    Do this when you get to the laser, **after** you finish your laser cut drawing and DXF (steps 1–3 of [Prepare Your Design](prepare-design.md)), and **before** you open CorelDRAW (step 4).
+    Do this **after** your design is ready in CorelDRAW and sent to Rayjet Manager (steps 1–7 of [Prepare Your Design](prepare-design.md)), and **before** you send the job to the laser (step 8).
 
 Do these steps in order. Check each box as you go.
 
@@ -20,22 +20,22 @@ On the right side of the machine is a control panel you can use to control posit
 
 ## Step 1: Turn on Ventilation Fan
 
-- [ ] Fan is on
+- Fan is on
 
 ![The ventilation fan unit on the floor next to the laser cutter, with its duct hose attached.](../images/laser/fan-unit.jpg)
 
 ## Step 2: Turn on Laser Cutting Machine
 
-- [ ] Machine is on
+- Machine is on
 
 ![The back of the laser cutter showing the power switch, labeled Power with an arrow.](../images/laser/power-switch.jpg)
 
 ## Step 3: Let Machine Startup
 
-- [ ] Lid needs to be closed
-- [ ] The machine will lower its bed, then move the laser head
-- [ ] The machine will beep 3 times, then do a final beep
-- [ ] After the final beep, you can continue to calibrate the machine
+- Lid needs to be closed
+- The machine will lower its bed, then move the laser head
+- The machine will beep 3 times, then do a final beep
+- After the final beep, you can continue to calibrate the machine
 
 !!! info "Hands off until the final beep"
     The machine is finding its home position. Pressing buttons now can confuse it.
@@ -66,13 +66,18 @@ On the right side of the machine is a control panel you can use to control posit
 
 ## Step 5: Position Laser Starting Point
 
-- [ ] Use the **X / Y arrows** to move the laser head over the **top-left corner** of your material.
-- [ ] Leave a small margin from the edge.
-- [ ] Check that your design fits between this point and the far edges of the sheet.
+- Use the **X / Y arrows** to move the laser head over the **top-left corner** of your material.
+- Leave a small margin from the edge.
+- Check that your design fits between this point and the far edges of the sheet.
 
 !!! image-soon "Image coming soon"
     The laser head positioned over the top-left corner of the material, with a small margin from the edge.
 
 <!-- When the photo is ready: add images/laser/position-start.jpg and replace the box above with ![The laser head positioned over the top-left corner of the material, with a small margin from the edge.](../images/laser/position-start.jpg) -->
 
-**Machine ready?** [Go back to Prepare Your Design, Step 4 →](prepare-design.md#step-4-open-your-dxf-in-coreldraw)
+<div class="page-next" markdown>
+
+[:material-arrow-left: In the lab? Back to Step 8](prepare-design.md#step-8-send-it-from-rayjet-manager-to-the-laser){ .md-button }
+[Next: Check Your Knowledge :material-arrow-right:](check-your-knowledge.md){ .md-button .md-button--primary }
+
+</div>

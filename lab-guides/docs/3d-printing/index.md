@@ -105,19 +105,16 @@ The [Step-by-Step](steps.md) page walks through each step.
 !!! tip "Layers are the weak spot"
     Parts are strongest *along* their layers and weakest *between* them. Orient your part so the load doesn't pull the layers apart.
 
-![The same beam sticking out from a wall with a load on its end. Printed lying down, the layers run along the beam and it is strong. Printed standing up, the layers stack across the beam and it snaps at the wall, between layers.](../images/3d-printing/layer-strength.svg){ width="480" }
 
 ## Safety
 
 - **It's hot.** The nozzle goes up to 300 °C and the plate over 100 °C. Don't touch either.
-- **Door stays closed** while printing. Don't reach in.
 - **Hands off the controls.** Ask before changing filament, settings, or canceling someone else's print.
 - **Safety glasses** when cutting or snapping off supports.
-- **Log your print** and **report problems** (weird noises, smells, errors) right away.
+- **Report problems** (weird noises, smells, errors) right away.
 
-!!! quiz "Required: Now take the safety quiz in Canvas"
-    Done reviewing this page? [Go to Canvas](https://wcc.instructure.com/courses/2771437) and take the **3D Printing Badge: Safety Quiz**. You need **100%** to pass, and you can retake it as many times as you need. You must pass it before you use the equipment.
+<div class="page-next" markdown>
 
-    [:material-open-in-new: Take the quiz in Canvas](https://wcc.instructure.com/courses/2771437){ .md-button }
+[Next: Step-by-Step :material-arrow-right:](steps.md){ .md-button .md-button--primary }
 
-**Next:** [Step-by-Step →](steps.md)
+</div>

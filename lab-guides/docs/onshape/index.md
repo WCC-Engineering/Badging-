@@ -18,18 +18,8 @@ Every machine in the lab starts from an Onshape design:
 2. Choose the free **Student** plan. **Not** the regular Free plan.
 3. Sign up with your **WCC school email**.
 
-!!! warning "Student plan, not the regular Free plan"
-    Both are free, but they're different:
-
-    | | **Student plan** :white_check_mark: | Regular Free plan :x: |
-    |---|---|---|
-    | Your documents | **Private**: only people you share with can see them | **Public**: anyone on Onshape can see and copy them |
-    | Renewal | Renew once a year while you're a student | — |
-
-    Already made a regular Free account? Ask your instructor how to switch it to the Student plan.
-
-!!! tip
-    Bookmark [cad.onshape.com](https://cad.onshape.com). That's where your documents live.
+!!! warning "Use your student email"
+    Please make a **student account** with your **student email**.
 
 ## Step 2: How Onshape is organized
 
@@ -59,7 +49,7 @@ Every machine in the lab starts from an Onshape design:
 | **Undo** | Ctrl + Z |
 
 !!! info "Mouse recommended"
-    Onshape works with a trackpad, but a mouse with a scroll wheel makes it much easier.
+    Onshape works with a trackpad, but a mouse makes it much easier.
 
 ## Step 4: Name and share your work
 
@@ -68,8 +58,11 @@ Every machine in the lab starts from an Onshape design:
 
 ## Good habits
 
-- **Units first.** Check the units before you start, usually **millimeters**. In a Part Studio, find them under the document menu → **Workspace units**.
-- **Name your features.** Double-click a feature in the list and rename it ("Base plate", "Mounting holes") so you can find it later.
+- **Stay organized** by naming your parts and using folders.
 - **Dimension everything.** A sketch with every line dimensioned turns **black**. Blue lines can still move. See [Sketch to Part](sketch-to-part.md).
 
-**Next:** [Sketch to Part →](sketch-to-part.md)
+<div class="page-next" markdown>
+
+[Next: Sketch to Part :material-arrow-right:](sketch-to-part.md){ .md-button .md-button--primary }
+
+</div>

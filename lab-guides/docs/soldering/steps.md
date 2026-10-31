@@ -6,20 +6,20 @@ Review these steps **before** starting the soldering badge activity: the **Spark
 
 ## Step 1: Prep Your Soldering Iron
 
-- [ ] **A. Plug in your soldering iron** and set it to the right temperature for your project and solder. Make sure the iron is in its stand before turning it on. Not sure of the temperature? Ask your instructor or lab technician.
+- **A. Plug in your soldering iron** and set it to the right temperature for your project and solder. Make sure the iron is in its stand before turning it on. Not sure of the temperature? Ask your instructor or lab technician.
 
     ![The soldering station's power switch with a red arrow, and the iron resting in its stand.](../images/soldering/iron-power-stand.jpg)
 
-- [ ] **B. Soak the sponge** using the area's water container. It should be damp, not dripping.
+- **B. Soak the sponge** using the area's water container. It should be damp, not dripping.
 
     ![A water bottle and the soldering stand's sponge being wetted.](../images/soldering/sponge-water.jpg)
 
-- [ ] **C. Turn on a fume absorber** (the switch is on the back).
+- **C. Turn on a fume absorber** (the switch is on the back).
 
     ![A blue fume absorber with a black filter facing the work area.](../images/soldering/fume-absorber.jpg){ width="260" }
 
-- [ ] **D. Prep your workspace while the iron heats up.** Gather safety glasses, flux, solder, support equipment, and the wiring or components to be soldered.
-- [ ] **E. Secure your project** in support equipment of your choice. Some let you move or rotate the work.
+- **D. Prep your workspace while the iron heats up.** Gather safety glasses, flux, solder, support equipment, and the wiring or components to be soldered.
+- **E. Secure your project** in support equipment of your choice. Some let you move or rotate the work.
 
     ![Three kinds of support equipment holding circuit boards: a bar clamp, helping hands, and a rotating holder.](../images/soldering/support-equipment.jpg)
 
@@ -50,9 +50,9 @@ Review these steps **before** starting the soldering badge activity: the **Spark
 
 **Tinning** is coating the iron's tip with a thin layer of solder. It stops the tip from oxidizing and helps heat move into your joint.
 
-- [ ] **A. Check the tip.** Dark and crusty = oxidized. Shiny silver = ready. Not sure? Ask!
-- [ ] **B. Clean.** Once the iron is hot, wipe the tip on the damp sponge and/or brass wire cleaner until it's shiny.
-- [ ] **C. Tin.** Melt a small amount of solder onto the tip so it has a thin, even, shiny coat.
+- **A. Check the tip.** Dark and crusty = oxidized. Shiny silver = ready. Not sure? Ask!
+- **B. Clean.** Once the iron is hot, wipe the tip on the damp sponge and/or brass wire cleaner until it's shiny.
+- **C. Tin.** Melt a small amount of solder onto the tip so it has a thin, even, shiny coat.
 
 !!! image-soon "Image coming soon"
     Side by side: a dark, crusty, oxidized iron tip next to a shiny, tinned tip.
@@ -115,10 +115,14 @@ Review these steps **before** starting the soldering badge activity: the **Spark
 
 ## Shut down your station
 
-- [ ] Tin the tip
-- [ ] Iron off and unplugged, back in the stand to cool
-- [ ] Fume absorber off
-- [ ] Clean up clipped leads and solder bits; put tools back
-- [ ] Wash your hands
+- Tin the tip
+- Iron off, back in the stand to cool
+- Fume absorber off
+- Clean up clipped leads and solder bits; put tools back
+- Wash your hands
 
-**Next:** [Good vs. Bad Joints →](joints.md)
+<div class="page-next" markdown>
+
+[Next: Good vs. Bad Joints :material-arrow-right:](joints.md){ .md-button .md-button--primary }
+
+</div>

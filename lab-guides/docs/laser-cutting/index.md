@@ -58,7 +58,7 @@ Every laser job follows the same path through three programs:
 <li><span class="flow__app">CorelDRAW</span><strong>Change line colors</strong> to cut or engrave</li>
 <li><span class="flow__app">CorelDRAW</span><em>Optional:</em> add <strong>text or a picture</strong> to engrave</li>
 <li><span class="flow__app">CorelDRAW → Rayjet Manager</span><strong>File → Print</strong> sends your design to Rayjet Manager</li>
-<li><span class="flow__app">Rayjet Manager → Laser</span>Send the job to the laser and press <strong>START</strong></li>
+<li><span class="flow__app">Rayjet Manager → Laser</span><strong>Prepare the machine</strong>, then send the job and press <strong>START</strong></li>
 </ol>
 </div>
 </div>
@@ -66,7 +66,7 @@ Every laser job follows the same path through three programs:
 The [Prepare Your Design](prepare-design.md) page walks through each step.
 
 !!! tip "Adding text or a picture?"
-    Cut your parts from Onshape as usual, then add the text or picture **in CorelDRAW** (step 6) and engrave it in the **same job** as your cut. See [Prepare Your Design](prepare-design.md#step-6-add-text-or-a-picture-to-engrave-optional).
+    **Before** you cut your parts from Onshape, add the text or picture **in CorelDRAW** (step 6) and engrave it in the **same job** as your cut. See [Prepare Your Design](prepare-design.md#step-6-add-text-or-a-picture-to-engrave-optional).
 
 ## Cut, etch, or engrave?
 
@@ -84,7 +84,7 @@ The laser engraves first and cuts last, so parts don't shift before the engravin
 
 ## What can go in the laser?
 
-!!! danger "Ask before you cut ANY material"
+!!! danger "Ask before you cut ANY material not provided"
     **Always get your material approved by Jonathan or an instructor before you cut it, even if it's on the OK list.** Bringing your own material? Get it approved first.
     Some materials give off **toxic gas** or **catch fire** in the laser, and many of them look alike.
 
@@ -113,7 +113,7 @@ The laser engraves first and cuts last, so parts don't shift before the engravin
 
 !!! danger "Fire is the #1 risk"
     Small flames at the cut point are normal. A flame that **keeps burning after the head moves on** is not.
-    **Never walk away from a running laser.** If something catches fire: press pause, keep the lid closed, and get the instructor.
+    **Never leave the room while the laser is running.** If something catches fire: press pause, keep the lid closed, and get the instructor.
 
 - **Ventilation fan always on.** No fan, no laser.
 - **Lid stays closed.** The beam is invisible. Never open the lid or reach in mid-job.
@@ -136,9 +136,8 @@ The laser engraves first and cuts last, so parts don't shift before the engravin
 !!! image-soon "Image coming soon"
     Side-by-side examples of good and bad laser cut designs: kerf and slot fit, spacing between parts, and feature thickness.
 
-!!! quiz "Required: Now take the safety quiz in Canvas"
-    Done reviewing this page? [Go to Canvas](https://wcc.instructure.com/courses/2771437) and take the **Laser Cutting Badge: Safety Quiz**. You need **100%** to pass, and you can retake it as many times as you need. You must pass it before you use the equipment.
+<div class="page-next" markdown>
 
-    [:material-open-in-new: Take the quiz in Canvas](https://wcc.instructure.com/courses/2771437){ .md-button }
+[Next: Prepare Your Design :material-arrow-right:](prepare-design.md){ .md-button .md-button--primary }
 
-**Next:** [Prepare Your Design →](prepare-design.md)
+</div>

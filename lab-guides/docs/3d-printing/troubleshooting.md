@@ -10,4 +10,8 @@
 
 Still stuck? Find Jonathan, a peer mentor, or an instructor. See [Ask for Help](../help.md).
 
-[:material-arrow-left: Back to Home](../index.md){ .md-button }
+<div class="page-next" markdown>
+
+[:material-home: Back to Home](../index.md){ .md-button .md-button--primary }
+
+</div>

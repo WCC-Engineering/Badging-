@@ -11,16 +11,6 @@ Almost every part follows the same pattern: **sketch a 2D shape → turn it into
 
 ## Step 2: Draw the shape
 
-Common sketch tools:
-
-| Tool | Shortcut | Use it for |
-|---|---|---|
-| Line | **L** | Straight edges |
-| Corner rectangle | **G** | Boxes and plates |
-| Center-point circle | **C** | Holes and round parts |
-| Fillet | **Shift + F** | Rounding sharp sketch corners |
-| Dimension | **D** | Setting exact sizes |
-
 Draw the rough shape first. Don't worry about exact sizes yet.
 
 ## Step 3: Dimension and constrain it
@@ -61,9 +51,6 @@ Draw the rough shape first. Don't worry about exact sizes yet.
 
 Everything is in the **feature list** on the left. Double-click any sketch or feature to change it, and everything after it updates automatically.
 
-!!! tip "Use variables for sizes you'll change"
-    Click **Variable** (the **(x)** button) to create, for example, `#thickness = 3 mm`. Type `#thickness` instead of a number in any dimension. This is a big help for laser-cut slots: when your sheet measures differently, change one number and every slot updates.
-
 ## Designing for a machine
 
 - **Going to the 3D printer?** See the design rules on the [3D Printing page](../3d-printing/index.md#design-for-3d-printing).
@@ -73,4 +60,8 @@ Everything is in the **feature list** on the left. Double-click any sketch or fe
     Want your design bigger or smaller? **Don't use Onshape's Transform (scale) feature.** Scaling shrinks or grows **every** dimension, including the slots and tabs that are sized to your material's thickness.
     Your sheet doesn't get thinner or thicker, so the scaled slots won't match it and the parts **won't fit together**.
 
-**Next:** [Drawings & Export →](drawings-and-export.md)
+<div class="page-next" markdown>
+
+[Next: Drawings & Export :material-arrow-right:](drawings-and-export.md){ .md-button .md-button--primary }
+
+</div>

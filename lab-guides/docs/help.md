@@ -1,22 +1,7 @@
-# Ask for Help
 
-## Lab Tech
 
-**Jonathan Van Hyning**  
-:material-email: [JVanHyning@whatcom.edu](mailto:JVanHyning@whatcom.edu)
+<div class="page-next" markdown>
 
-## Engineering Peer Mentors
+[:material-home: Back to Home](index.md){ .md-button .md-button--primary }
 
-- Alec
-- Austin
-- Colton
-- Cooper
-- Owen
-- Paul
-- Saul
-
-## Instructors
-
-- Chloe
-- Eric
-- Pat
+</div>

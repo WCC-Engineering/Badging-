@@ -4,9 +4,9 @@ These rules apply to every machine in the WCC Engineering Lab.
 
 ## Before you use any machine
 
-- [ ] I've completed the badge for this machine.
-- [ ] I've passed the safety quiz in Canvas.
-- [ ] My design/file is ready **before** I sit down at the lab computer.
+- I've completed the badge for this machine.
+- I've passed the safety quiz in Canvas.
+- My design/file is ready **before** I sit down at the lab computer.
 
 ## Always
 
@@ -30,4 +30,13 @@ These rules apply to every machine in the WCC Engineering Lab.
 - **Burn:** cool running water right away, then tell the instructor.
 - Know where the **fire extinguisher** and **first aid kit** are before you start.
 
-**Next:** Pick a badge: [3D Printing](3d-printing/index.md) · [Laser Cutting](laser-cutting/index.md) · [Soldering](soldering/index.md). New to CAD? Start with [Onshape](onshape/index.md).
+**Next: pick a badge.** New to CAD? Start with Onshape.
+
+<div class="page-next" markdown>
+
+[Onshape :material-arrow-right:](onshape/index.md){ .md-button .md-button--primary }
+[3D Printing :material-arrow-right:](3d-printing/index.md){ .md-button .md-button--primary }
+[Laser Cutting :material-arrow-right:](laser-cutting/index.md){ .md-button .md-button--primary }
+[Soldering :material-arrow-right:](soldering/index.md){ .md-button .md-button--primary }
+
+</div>

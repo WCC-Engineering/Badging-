@@ -2,7 +2,7 @@
 
 ## A good joint
 
-![Side view of a good solder joint: a smooth, shiny cone of solder wrapping the lead and covering the copper pad.](../images/soldering/joints/good.svg){ width="320" }
+![Side view of a good solder joint: a smooth, shiny cone of solder wrapping the lead and covering the copper pad.](../images/soldering/joints/good.svg){ width="420" }
 
 - **Shiny and smooth**
 - **Cone- or volcano-shaped,** wrapping the lead
@@ -11,7 +11,7 @@
 
 ## Common problems
 
-<div class="grid" markdown>
+<div class="grid grid--wide" markdown>
 
 <figure markdown>
 ![Side view of a cold joint: dull, grainy, lumpy solder.](../images/soldering/joints/cold.svg)
@@ -50,13 +50,8 @@
 | Pad peeled up | **Lifted pad** | Heated too long | Stop and ask the instructor |
 | Solder won't melt | — | Tip oxidized or not tinned | Clean on the sponge, then re-tin |
 
-!!! question "Try it"
-    Swap boards with a partner. Inspect every joint, name each problem you find, and suggest the fix.
+<div class="page-next" markdown>
 
-!!! success "You finished the Soldering badge!"
-    Your flashlight is built and every joint has been inspected.
+[Next: Check Your Knowledge :material-arrow-right:](check-your-knowledge.md){ .md-button .md-button--primary }
 
-    - A joint doesn't look right? Use the table above to find the fix.
-    - Still stuck? Find Jonathan, a peer mentor, or an instructor. See [Ask for Help](../help.md).
-
-[:material-arrow-left: Back to Home](../index.md){ .md-button }
+</div>

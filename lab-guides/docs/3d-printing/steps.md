@@ -58,11 +58,11 @@ A **slicer** turns your 3D model into hundreds of thin layers and the exact path
 
 ### Read the preview
 
-- [ ] Print time fits before class ends
-- [ ] Layer 1 has lots of solid contact with the plate
-- [ ] Nothing prints in mid-air with nothing below it
-- [ ] Supports only where you expect them
-- [ ] Only one copy of your part on the plate
+- Print time fits before class ends
+- Layer 1 has lots of solid contact with the plate
+- Nothing prints in mid-air with nothing below it
+- Supports only where you expect them
+- Only one copy of your part on the plate
 
 ## Step 4: Send it to the printer
 
@@ -77,9 +77,9 @@ The first few minutes look like nothing is happening while it heats and calibrat
 
 ## Step 5: Print and watch the first layer
 
-- [ ] Build plate is clean (no fingerprints or leftover plastic)
-- [ ] The plate in the printer matches the plate in Bambu Studio
-- [ ] The right filament is in the AMS slot you chose
+- Build plate is clean (no fingerprints or leftover plastic)
+- The plate in the printer matches the plate in Bambu Studio
+- The right filament is in the AMS slot you chose
 
 !!! tip "Watch the first layer"
     Lines should be flat, slightly squished, and touching each other. If it's lifting, curling, or dragging around, stop and ask for help.
@@ -97,10 +97,8 @@ The first few minutes look like nothing is happening while it heats and calibrat
 4. **Reset the printer:** clear scraps and put the plate back.
 5. **Measure it** with calipers and compare it to your Onshape dimensions.
 
-!!! success "You finished the 3D Printing badge!"
-    Your part is printed, cleaned up, and measured.
+<div class="page-next" markdown>
 
-    - Something went wrong? Check [Troubleshooting](troubleshooting.md).
-    - Still stuck? Find Jonathan, a peer mentor, or an instructor. See [Ask for Help](../help.md).
+[Next: Check Your Knowledge :material-arrow-right:](check-your-knowledge.md){ .md-button .md-button--primary }
 
-**Next:** [Troubleshooting →](troubleshooting.md)
+</div>

@@ -34,7 +34,7 @@ Every soldering job follows the same path:
 <li><span class="flow__app">Prep</span>Prep your wires or parts</li>
 <li><span class="flow__app">Clean & tin</span>Clean the tip and coat it with solder</li>
 <li><span class="flow__app">Solder</span>Heat the joint, feed solder, inspect</li>
-<li><span class="flow__app">Shut down</span>Tin the tip, unplug, clean up</li>
+<li><span class="flow__app">Shut down</span>Tin the tip, turn off the iron, clean up</li>
 </ol>
 </div>
 </div>
@@ -77,7 +77,8 @@ While you watch, notice:
 
 Look at the photo above and try to spot each tool from the list. Then check yourself:
 
-![The same soldering station photo with labels and arrows pointing to the fume absorber, iron station, solder, support clamp, flush cutters, flux pen, and iron with stand.](../images/soldering/station-labeled.jpg)
+!!! image-soon "Image coming soon"
+    The soldering station photo with each tool labeled.
 
 ## Why clean and shiny matters
 
@@ -92,13 +93,12 @@ Hot metal **oxidizes** within seconds, forming a dark layer that solder won't st
 - **Fume absorber on.** Don't lean over the smoke.
 - **Wash your hands after soldering.** No food or drinks at the station.
 - **Clear, tidy workspace.** No loose sleeves, cords, or flammable materials near the tip.
-- **Turn off and unplug** the iron when you're done.
+- **Turn off** the iron when you're done.
 - **Burned?** Cool running water right away, then tell the instructor.
 - Know where the **fire extinguisher** (rated for electrical fires) and the **first aid kit** are.
 
-!!! quiz "Required: Now take the safety quiz in Canvas"
-    Done reviewing this page? [Go to Canvas](https://wcc.instructure.com/courses/2771437) and take the **Soldering Badge: Safety Quiz**. You need **100%** to pass, and you can retake it as many times as you need. You must pass it before you use the equipment.
+<div class="page-next" markdown>
 
-    [:material-open-in-new: Take the quiz in Canvas](https://wcc.instructure.com/courses/2771437){ .md-button }
+[Next: Step-by-Step :material-arrow-right:](steps.md){ .md-button .md-button--primary }
 
-**Next:** [Step-by-Step →](steps.md)
+</div>

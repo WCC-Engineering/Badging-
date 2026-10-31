@@ -14,12 +14,16 @@ New to CAD? Start with [**Onshape**](onshape/index.md). Every machine here start
 
 ## How to earn a badge
 
-1. **Read the badge's Overview & Safety page.**
-2. **Take the badge's safety quiz in [Canvas](https://wcc.instructure.com/courses/2771437).** You need 100% to pass, and you can retake it as many times as you need.
-3. **Walk through the Step-by-Step pages** so you know what to expect.
+1. **Work through every page of the badge, in order**, before you come to lab. Take your time. This is where you learn the process.
+2. **Finish with Check Your Knowledge.** Practice questions show you what stuck and what to reread.
+3. **Take the badge's safety quiz in [Canvas](https://wcc.instructure.com/courses/2771437).** You need 100% to pass, and you can retake it as many times as you need.
 4. **Bring the Step-by-Step pages to lab** on your phone or laptop and follow along.
 
 !!! tip "Stuck?"
     Find Jonathan, any of the peer mentors, or an instructor to help! See [Ask for Help](help.md).
 
-**Next:** [Lab Rules →](lab-rules.md)
+<div class="page-next" markdown>
+
+[Next: Lab Rules :material-arrow-right:](lab-rules.md){ .md-button .md-button--primary }
+
+</div>

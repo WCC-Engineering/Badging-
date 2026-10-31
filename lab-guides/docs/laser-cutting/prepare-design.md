@@ -18,7 +18,7 @@ Your design goes through **three programs** on its way to the laser:
 <li><span class="flow__app">CorelDRAW</span><strong>Change line colors</strong> to cut or engrave</li>
 <li><span class="flow__app">CorelDRAW</span><em>Optional:</em> add <strong>text or a picture</strong> to engrave</li>
 <li><span class="flow__app">CorelDRAW → Rayjet Manager</span><strong>File → Print</strong> sends your design to Rayjet Manager</li>
-<li><span class="flow__app">Rayjet Manager → Laser</span>Send the job to the laser and press <strong>START</strong></li>
+<li><span class="flow__app">Rayjet Manager → Laser</span><strong>Prepare the machine</strong>, then send the job and press <strong>START</strong></li>
 </ol>
 </div>
 </div>
@@ -35,21 +35,21 @@ A **laser cut drawing** is **not** the same as an engineering drawing. The laser
 
 <figure markdown>
 ![An engineering drawing with a border, title block, two views, and blue dimension lines.](../images/laser/engineering-drawing-example.svg)
-<figcaption>:x: <strong>Engineering drawing</strong>: border, title block, dimensions. The laser would cut all of it.</figcaption>
+<figcaption><strong>Not this:</strong> an engineering drawing has a border, title block, and dimensions. The laser would cut all of it.</figcaption>
 </figure>
 
 <figure markdown>
 ![A laser cut drawing: a blank sheet showing only the outlines of two parts.](../images/laser/laser-drawing-example.svg)
-<figcaption>:white_check_mark: <strong>Laser cut drawing</strong>: a blank sheet with only the outlines of each part.</figcaption>
+<figcaption><strong>Use this:</strong> a laser cut drawing is a blank sheet with only the outlines of each part.</figcaption>
 </figure>
 
 </div>
 
 Your laser cut drawing needs:
 
-- [ ] A **blank sheet**: no border, no title block, no dimensions
-- [ ] One **view of each part** you want cut (usually the **Top** view)
-- [ ] Every view at **1:1 scale**
+- A **blank sheet**: no border, no title block, no dimensions
+- One **view of each part** you want cut
+- Every view at **1:1 scale**
 
 See [Drawings & Export](../onshape/drawings-and-export.md#for-the-laser-cutter-make-a-drawing-then-export-dxf) for how to set it up.
 
@@ -63,9 +63,6 @@ See [Drawings & Export](../onshape/drawings-and-export.md#for-the-laser-cutter-m
 
 !!! warning "Steps 1–3 happen before you come to the laser"
     Don't use the CAS 117 computer to model. Someone else may be waiting to cut. Engineering laptops are available in **Cascade, room 112**.
-
-!!! info "At the laser: prepare the machine first"
-    When you get to CAS 117, do [Prepare the Machine](prepare-machine.md) (fan on, power on, calibrate, position the laser). Then come back here for Step 4.
 
 ## Step 4: Open your DXF in CorelDRAW
 
@@ -84,8 +81,8 @@ At the CAS 117 computer:
 
 ![A DXF of several box panels with finger joints imported into CorelDRAW, shown in black lines.](../images/laser/coreldraw-imported.jpg)
 
-- [ ] Size matches Onshape
-- [ ] No border, title block, or dimension lines (delete any that got in)
+- Size matches Onshape
+- No border, title block, or dimension lines (delete any that got in)
 
 ## Step 5: Change the line colors in CorelDRAW
 
@@ -159,6 +156,9 @@ In CorelDRAW, choose **File → Print**. This sends your design to the **Rayjet 
 <!-- When the photo is ready: add images/laser/coreldraw-print.jpg and replace the box above with ![The CorelDRAW Print window with the Rayjet laser selected as the printer.](../images/laser/coreldraw-print.jpg) -->
 
 
+!!! info "Now prepare the machine"
+    Your design is ready in Rayjet Manager. Before you send it to the laser, go do [Prepare the Machine](prepare-machine.md) (fan on, power on, calibrate, position the laser). Then come back here for Step 8.
+
 ## Step 8: Send it from Rayjet Manager to the laser
 
 Go to **Rayjet Manager**.
@@ -169,35 +169,32 @@ Go to **Rayjet Manager**.
 <!-- When the photo is ready: add images/laser/rayjet-manager-preview.jpg and replace the box above with ![Rayjet Manager showing the job preview with the parts on the material.](../images/laser/rayjet-manager-preview.jpg) -->
 
 
-- [ ] Check the preview: are all your parts there, at the right size?
-- [ ] Send the job to the laser.
+- Check the preview: are all your parts there, at the right size?
+- Send the job to the laser.
 
 ### Before you press START
 
-- [ ] Ventilation fan is ON
-- [ ] Material lies flat on the bed
-- [ ] Z calibrated with the calibration tool on **this** material
-- [ ] Calibration tool is back in its spot
-- [ ] Lid closed, then press **START** on the computer in the Rayjet software
+- Ventilation fan is ON
+- Material lies flat on the bed
+- Z calibrated with the calibration tool on **this** material
+- Calibration tool is back in its spot
+- Lid closed, then press **START** on the computer in the Rayjet software
 
 !!! image-soon "Image coming soon"
     The START button in the Rayjet software on the computer.
 
 <!-- When the photo is ready: add images/laser/rayjet-start-button.jpg and replace the box above with ![The START button in the Rayjet software on the computer.](../images/laser/rayjet-start-button.jpg) -->
 
-!!! danger "Never walk away while it's cutting."
+!!! danger "Never leave the room while it's cutting."
 
 ## After the cut
 
 1. **Wait for the smoke to clear** before opening the lid.
-2. **Test before moving anything.** Gently press a part. Not cut through? Run it again *without moving the sheet*.
-3. **Remove your parts** and clean scraps out of the machine.
-4. **Measure your fit** with calipers and compare it to Onshape. Too loose or tight? You just measured the kerf.
+2. **Remove your parts** and clean scraps out of the machine.
+3. **Measure your fit** with calipers and compare it to Onshape. Too loose or tight? You just measured the kerf.
 
-!!! success "You finished the Laser Cutting badge!"
-    Your parts are cut, removed, and measured.
+<div class="page-next" markdown>
 
-    - Something went wrong? Check [Troubleshooting](troubleshooting.md).
-    - Still stuck? Find Jonathan, a peer mentor, or an instructor. See [Ask for Help](../help.md).
+[Next: Prepare the Machine :material-arrow-right:](prepare-machine.md){ .md-button .md-button--primary }
 
-**Next:** [Troubleshooting →](troubleshooting.md)
+</div>
