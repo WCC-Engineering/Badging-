@@ -1,5 +1,8 @@
 # Soldering: Step-by-Step
 
+!!! tip "In the lab? Follow along here"
+    Use this page to walk through each step while you work. **If you're unsure about anything, stop and ask** Jonathan, a peer mentor, or an instructor.
+
 Review these steps **before** starting the soldering badge activity: the **SparkFun Basic Flashlight Soldering Kit** ([full kit directions](https://learn.sparkfun.com/tutorials/flashlight-kit#how-to-solder)).
 
 **Step 1: Prep your iron → Step 2: Prep wires/parts → Step 3: Clean & tin → Step 4: Solder & inspect**

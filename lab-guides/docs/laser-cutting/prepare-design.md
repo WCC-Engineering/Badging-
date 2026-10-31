@@ -1,5 +1,8 @@
 # Laser Cutting: Prepare Your Design
 
+!!! tip "In the lab? Follow along here"
+    Use this page to walk through each step while you work. **If you're unsure about anything, stop and ask** Jonathan, a peer mentor, or an instructor.
+
 Your design goes through **three programs** on its way to the laser:
 
 <div class="flow" markdown>
@@ -8,6 +11,11 @@ Your design goes through **three programs** on its way to the laser:
 <ol class="flow__steps">
 <li><span class="flow__app">Onshape</span>Make your part</li>
 <li><span class="flow__app">Onshape</span>Make a <strong>laser cut drawing</strong>: outlines only, 1:1</li>
+</ol>
+</div>
+<div class="flow__group">
+<p class="flow__where">Before lab (bring it on a USB drive) or at the laser</p>
+<ol class="flow__steps" style="--flow-start: 2">
 <li><span class="flow__app">Onshape</span>Download it as a <strong>DXF</strong></li>
 </ol>
 </div>
@@ -55,14 +63,19 @@ See [Drawings & Export](../onshape/drawings-and-export.md#for-the-laser-cutter-m
 
 ## Step 3: Download the drawing as a DXF
 
+You can do this step **either** way:
+
+- **Before lab:** export the DXF on your own computer and bring it on a **USB drive**.
+- **At the laser:** log in to Onshape on the **CAS 117 computer** and export it there.
+
 1. Right-click the **Drawing** tab and choose **Export…**
 2. File name: **Student Name - Project**
 3. Format: **DXF**, then **Export** to download it.
 
 ![The Onshape Export Drawing dialog with the file name Student Name - Project and DXF selected in the format list.](../images/laser/onshape-export-dxf.jpg){ width="380" }
 
-!!! warning "Steps 1–3 happen before you come to the laser"
-    Don't use the CAS 117 computer to model. Someone else may be waiting to cut. Engineering laptops are available in **Cascade, room 112**.
+!!! warning "Finish steps 1 and 2 before you come to the laser"
+    Your part and your laser cut drawing must be **done** before you sit down at the CAS 117 computer. Don't use it to model. Someone else may be waiting to cut. Engineering laptops are available in **Cascade, room 112**.
 
 ## Step 4: Open your DXF in CorelDRAW
 
@@ -76,12 +89,17 @@ At the CAS 117 computer:
 
     <!-- When the photo is ready: add images/laser/coreldraw-new-document.jpg and replace the box above with ![CorelDRAW's File → New window with the page width and height set to the size of the material.](../images/laser/coreldraw-new-document.jpg) -->
 
-3. **File → Import** your DXF.
-4. Click your part and check that the width and height in the toolbar match your Onshape dimensions.
+3. **File → Import** your DXF, **or** drag your downloaded DXF file into the CorelDRAW window.
+4. **Move your parts onto the page without changing their size:**
+    - Press **Ctrl + A** to select everything, then use the **arrow keys** to move it all onto the page, **or**
+    - Drag each piece from its **middle** to move it. Don't grab the corner or edge handles, because those resize it.
+
+!!! danger "Don't change the size of your parts in CorelDRAW"
+    Your DXF is already the exact size you designed in Onshape. If you stretch or shrink anything in CorelDRAW, the **actual parts** come out the wrong size and won't fit together. **Move only, never resize.**
 
 ![A DXF of several box panels with finger joints imported into CorelDRAW, shown in black lines.](../images/laser/coreldraw-imported.jpg)
 
-- Size matches Onshape
+- All parts are on the page, and none were resized
 - No border, title block, or dimension lines (delete any that got in)
 
 ## Step 5: Change the line colors in CorelDRAW

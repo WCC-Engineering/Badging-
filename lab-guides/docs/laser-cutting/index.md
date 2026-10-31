@@ -48,6 +48,11 @@ Every laser job follows the same path through three programs:
 <ol class="flow__steps">
 <li><span class="flow__app">Onshape</span>Make your part</li>
 <li><span class="flow__app">Onshape</span>Make a <strong>laser cut drawing</strong>: outlines only, 1:1</li>
+</ol>
+</div>
+<div class="flow__group">
+<p class="flow__where">Before lab (bring it on a USB drive) or at the laser</p>
+<ol class="flow__steps" style="--flow-start: 2">
 <li><span class="flow__app">Onshape</span>Download it as a <strong>DXF</strong></li>
 </ol>
 </div>

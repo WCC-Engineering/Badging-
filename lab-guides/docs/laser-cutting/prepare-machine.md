@@ -1,5 +1,8 @@
 # Laser Cutting: Prepare the Machine
 
+!!! tip "In the lab? Follow along here"
+    Use this page to walk through each step while you work. **If you're unsure about anything, stop and ask** Jonathan, a peer mentor, or an instructor.
+
 !!! info "When to do this"
     Do this **after** your design is ready in CorelDRAW and sent to Rayjet Manager (steps 1–7 of [Prepare Your Design](prepare-design.md)), and **before** you send the job to the laser (step 8).
 

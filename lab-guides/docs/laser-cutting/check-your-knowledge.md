@@ -32,11 +32,9 @@ You've read the whole Laser Cutting badge. Before you take the Canvas quiz, see 
 !!! quiz "Required: Now take the safety quiz in Canvas"
     Got these down? [Go to Canvas](https://wcc.instructure.com/courses/2771437) and take the **Laser Cutting Badge: Safety Quiz**. You need **100%** to pass, and you can retake it as many times as you need. You must pass it before you use the equipment.
 
-    [:material-open-in-new: Take the quiz in Canvas](https://wcc.instructure.com/courses/2771437){ .md-button }
+    **Once you pass, you're ready for the lab!** Bring the Step-by-Step pages on your phone or laptop and use them to go through each step while you work. If something goes wrong, check [Troubleshooting](troubleshooting.md). **Remember to ask if you're unsure!**
 
-!!! success "Passed the quiz? You're ready for lab!"
-    Bring the Step-by-Step pages to lab on your phone or laptop and follow along. If something goes wrong, check [Troubleshooting](troubleshooting.md).
-    Stuck? Find Jonathan, a peer mentor, or an instructor. See [Ask for Help](../help.md).
+    [:material-open-in-new: Take the quiz in Canvas](https://wcc.instructure.com/courses/2771437){ .md-button }
 
 <div class="page-next" markdown>
 

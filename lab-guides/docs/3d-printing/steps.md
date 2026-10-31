@@ -1,5 +1,8 @@
 # 3D Printing: Step-by-Step
 
+!!! tip "In the lab? Follow along here"
+    Use this page to walk through each step while you work. **If you're unsure about anything, stop and ask** Jonathan, a peer mentor, or an instructor.
+
 **Design → Export → Slice → Send → Print → Finish**
 
 Most failed prints are decided in steps 1–3, before the printer ever turns on.
