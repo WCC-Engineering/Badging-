@@ -1,0 +1,74 @@
+site_name: WCC Engineering Lab Badges
+site_description: Badges for Onshape, the 3D printer, laser cutter, and soldering stations in the WCC Engineering Lab.
+site_url: https://wcc-engineering.github.io/Badging-/
+repo_url: https://github.com/WCC-Engineering/Badging-
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+  icon:
+    logo: material/wrench
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home:
+      - Welcome: index.md
+      - What Is a Badge?: what-is-a-badge.md
+      - Lab Rules: lab-rules.md
+  - Onshape:
+      - Getting Started: onshape/index.md
+      - Sketch to Part: onshape/sketch-to-part.md
+      - Drawings & Export: onshape/drawings-and-export.md
+  - 3D Printing:
+      - Overview & Safety: 3d-printing/index.md
+      - Step-by-Step: 3d-printing/steps.md
+      - Check Your Knowledge: 3d-printing/check-your-knowledge.md
+      - Troubleshooting: 3d-printing/troubleshooting.md
+  - Laser Cutting:
+      - Overview & Safety: laser-cutting/index.md
+      - Prepare Your Design: laser-cutting/prepare-design.md
+      - Prepare the Machine: laser-cutting/prepare-machine.md
+      - Check Your Knowledge: laser-cutting/check-your-knowledge.md
+      - Troubleshooting: laser-cutting/troubleshooting.md
+  - Soldering:
+      - Overview & Safety: soldering/index.md
+      - Step-by-Step: soldering/steps.md
+      - Good vs. Bad Joints: soldering/joints.md
+      - Check Your Knowledge: soldering/check-your-knowledge.md
+  - Ask for Help: help.md

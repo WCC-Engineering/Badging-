@@ -1,0 +1,225 @@
+:root, [data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #003B71;
+  --md-primary-fg-color--light: #2C6AA8;
+  --md-primary-fg-color--dark: #002A52;
+  --md-accent-fg-color: #C8102E;
+}
+.md-typeset img {
+  border-radius: 8px;
+  max-height: 420px;
+}
+.md-typeset .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+/* Clickable topic cards on the home page */
+.md-typeset .topic-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.md-typeset a.topic-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1.1rem 1.2rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+}
+.md-typeset a.topic-card:hover,
+.md-typeset a.topic-card:focus-visible {
+  border-color: var(--md-primary-fg-color--light);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+  color: var(--md-default-fg-color);
+}
+.md-typeset a.topic-card:focus-visible {
+  outline: 3px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
+.topic-card__icon { font-size: 1.8rem; line-height: 1; }
+.topic-card__title { font-size: 1.1rem; font-weight: 700; color: var(--md-primary-fg-color--light); }
+.topic-card__text { font-size: 0.8rem; flex-grow: 1; }
+.topic-card__go { font-size: 0.8rem; font-weight: 700; color: var(--md-primary-fg-color--light); }
+a.topic-card:hover .topic-card__go { text-decoration: underline; }
+
+/* "person" contact cards on the Ask for Help page */
+:root {
+  --md-admonition-icon--person: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4"/></svg>');
+}
+.md-typeset .admonition.person,
+.md-typeset details.person {
+  border-color: var(--md-primary-fg-color--light);
+}
+.md-typeset .person > .admonition-title,
+.md-typeset .person > summary {
+  background-color: color-mix(in srgb, var(--md-primary-fg-color--light) 12%, transparent);
+}
+.md-typeset .person > .admonition-title::before,
+.md-typeset .person > summary::before {
+  background-color: var(--md-primary-fg-color--light);
+  -webkit-mask-image: var(--md-admonition-icon--person);
+          mask-image: var(--md-admonition-icon--person);
+}
+
+
+/* Step-by-step workflow strip (laser cutting) */
+.md-typeset .flow { margin: 1.5rem 0; }
+.md-typeset .flow__group { margin-bottom: 1rem; }
+.md-typeset .flow__where {
+  font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em;
+  color: var(--md-default-fg-color--light); margin: 0 0 0.4rem;
+}
+.md-typeset ol.flow__steps {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 0.6rem;
+  counter-reset: flow var(--flow-start, 0);
+}
+.md-typeset ol.flow__steps > li {
+  counter-increment: flow; margin: 0; position: relative;
+  padding: 0.7rem 0.8rem 0.7rem 2.6rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 4px solid var(--md-primary-fg-color--light);
+  border-radius: 8px; background: var(--md-default-bg-color);
+  font-size: 0.8rem; line-height: 1.35;
+}
+.md-typeset ol.flow__steps > li::before {
+  content: counter(flow); position: absolute; left: 0.7rem; top: 0.7rem;
+  width: 1.4rem; height: 1.4rem; border-radius: 50%;
+  background: var(--md-primary-fg-color--light); color: #fff;
+  font-weight: 700; font-size: 0.75rem; display: grid; place-items: center;
+}
+.md-typeset .flow__app { display: block; font-weight: 700; color: var(--md-primary-fg-color--light); }
+
+/* "Image coming soon" / "Video coming soon" placeholder boxes */
+:root {
+  --md-admonition-icon--image-soon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4h3l2-2h6l2 2h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2m8 3a5 5 0 0 0-5 5 5 5 0 0 0 5 5 5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 2a3 3 0 0 1 3 3 3 3 0 0 1-3 3 3 3 0 0 1-3-3 3 3 0 0 1 3-3"/></svg>');
+  --md-admonition-icon--video-soon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 10.5V7a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-3.5l4 4v-11z"/></svg>');
+}
+.md-typeset .admonition.image-soon,
+.md-typeset .admonition.video-soon {
+  border: 2px dashed var(--md-default-fg-color--lighter);
+  border-left-width: 2px;
+  background: var(--md-default-fg-color--lightest);
+  box-shadow: none;
+}
+.md-typeset .image-soon > .admonition-title,
+.md-typeset .video-soon > .admonition-title {
+  background: transparent;
+  color: var(--md-default-fg-color--light);
+}
+.md-typeset .image-soon > .admonition-title::before {
+  background-color: var(--md-default-fg-color--light);
+  -webkit-mask-image: var(--md-admonition-icon--image-soon);
+  mask-image: var(--md-admonition-icon--image-soon);
+}
+.md-typeset .video-soon > .admonition-title::before {
+  background-color: var(--md-default-fg-color--light);
+  -webkit-mask-image: var(--md-admonition-icon--video-soon);
+  mask-image: var(--md-admonition-icon--video-soon);
+}
+
+/* Big, bright "take the safety quiz" banner */
+:root {
+  --md-admonition-icon--quiz: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2 4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5zm-1.06 13.54L7.4 12l1.41-1.41 2.12 2.12 4.24-4.24 1.41 1.41z"/></svg>');
+}
+.md-typeset .admonition.quiz {
+  border: 3px solid #F2A900;
+  border-radius: 12px;
+  background: #FFF6D6;
+  color: #1F2933;
+  font-size: 0.9rem;
+  box-shadow: 0 6px 18px rgba(242, 169, 0, 0.35);
+  margin: 2.2em 0;
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition.quiz {
+  background: #3A2E06;
+  color: #FFF6D6;
+}
+.md-typeset .quiz > .admonition-title {
+  background: #F2A900;
+  color: #1F2933;
+  font-size: 1.15rem;
+  font-weight: 800;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  border-radius: 8px 8px 0 0;
+}
+.md-typeset .quiz > .admonition-title::before {
+  background-color: #1F2933;
+  -webkit-mask-image: var(--md-admonition-icon--quiz);
+  mask-image: var(--md-admonition-icon--quiz);
+  width: 1.4rem; height: 1.4rem; top: 0.85rem;
+}
+.md-typeset .quiz .md-button {
+  font-size: 1rem;
+  padding: 0.75em 1.6em;
+  background: #C8102E;
+  border-color: #C8102E;
+  color: #FFFFFF;
+}
+.md-typeset .quiz .md-button:hover,
+.md-typeset .quiz .md-button:focus-visible {
+  background: #9E0C24;
+  border-color: #9E0C24;
+  color: #FFFFFF;
+}
+
+/* Embedded videos: highlighted, full-width, keeps 16:9 on any screen */
+.md-typeset .video-box {
+  border: 3px solid var(--md-primary-fg-color--light);
+  border-radius: 12px;
+  padding: 0.9rem 1rem 1rem;
+  margin: 1.2rem 0 1.5rem;
+  background: var(--md-default-fg-color--lightest);
+}
+.md-typeset .video-box__title {
+  display: flex; align-items: center; gap: 0.5rem;
+  font-size: 1.05rem; font-weight: 800; margin: 0 0 0.7rem;
+  color: var(--md-primary-fg-color--light);
+}
+.md-typeset .video-box__frame {
+  position: relative; width: 100%; aspect-ratio: 16 / 9;
+  border-radius: 8px; overflow: hidden; background: #000;
+}
+.md-typeset .video-box__frame iframe {
+  position: absolute; inset: 0; width: 100%; height: 100%; border: 0;
+}
+.md-typeset .video-box__link { font-size: 0.75rem; margin: 0.6rem 0 0; }
+
+/* Wider image grid (bigger pictures, e.g. Good vs. Bad Joints) */
+.md-typeset .grid.grid--wide { grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+/* Pictures with captions inside a grid fill their column */
+.md-typeset .grid figure { margin: 0; width: 100%; }
+.md-typeset .grid figure img { width: 100%; height: auto; }
+
+/* Callout boxes (tips, warnings, Stuck?, answers) use the same text size as the page */
+.md-typeset .admonition,
+.md-typeset details { font-size: 0.8rem; }
+.md-typeset .admonition-title,
+.md-typeset summary { font-size: 0.8rem; }
+
+/* Big, obvious "Next" buttons at the end of each page */
+.md-typeset .page-next {
+  display: flex; flex-wrap: wrap; gap: 0.8rem; justify-content: flex-end;
+  margin: 2.5rem 0 1rem; padding-top: 1.5rem;
+  border-top: 2px solid var(--md-default-fg-color--lightest);
+}
+.md-typeset .page-next .md-button {
+  font-size: 1rem; padding: 0.8em 1.6em; border-radius: 10px;
+  display: inline-flex; align-items: center; gap: 0.4em;
+}
+@media screen and (max-width: 600px) {
+  .md-typeset .page-next .md-button { width: 100%; justify-content: center; }
+}
+.md-typeset .page-next > p {
+  display: flex; flex-wrap: wrap; gap: 0.8rem; justify-content: flex-end; margin: 0; width: 100%;
+}
+.md-typeset .page-next .md-button { margin: 0; }

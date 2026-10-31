@@ -1,0 +1,17 @@
+# Laser Cutting: Troubleshooting
+
+| What you see | Likely cause | Try this |
+|---|---|---|
+| Didn't cut all the way through | Z not calibrated, warped sheet, or low power | Re-calibrate Z; flatten the sheet; run an extra pass **before** moving it |
+| Line was engraved, not cut | Line too thick or not exactly red | Re-select the lines and right-click the RED swatch |
+| Part is the wrong size | Drawing not 1:1, or the parts were resized in CorelDRAW | Set the drawing to 1:1 in Onshape, re-export, and only move (never resize) parts in CorelDRAW |
+| Border or dimensions got cut | Drawing extras left in the file | Delete them in CorelDRAW before printing |
+| Slots too loose or too tight | Kerf not accounted for | Cut a small test fit from your material, measure it, and adjust your slot sizes in Onshape |
+
+Still stuck? Find Jonathan, a peer mentor, or an instructor. Don't guess with the laser. See [Ask for Help](../help.md).
+
+<div class="page-next" markdown>
+
+[:material-home: Back to Home](../index.md){ .md-button .md-button--primary }
+
+</div>
