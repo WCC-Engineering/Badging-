@@ -16,7 +16,7 @@ New to CAD? Start with [**Onshape**](onshape/index.md). Every machine here start
 
 1. **Work through every page of the badge, in order**, before you come to lab. Take your time. This is where you learn the process.
 2. **Finish with Check Your Knowledge.** Practice questions show you what stuck and what to reread.
-3. **Take the badge's safety quiz in [Canvas](https://wcc.instructure.com/courses/2771437).** You need 100% to pass, and you can retake it as many times as you need.
+3. **Take the badge's safety quiz in Canvas.** You need 100% to pass, and you can retake it as many times as you need.
 4. **Bring the Step-by-Step pages to lab** on your phone or laptop and follow along.
 
 !!! tip "Stuck?"

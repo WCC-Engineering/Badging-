@@ -30,11 +30,10 @@ You've read the whole Laser Cutting badge. Before you take the Canvas quiz, see 
     **Stay in the room until it's done.** Fire is the biggest risk with the laser, and someone has to be there to press pause and get help if a flame keeps burning.
 
 !!! quiz "Required: Now take the safety quiz in Canvas"
-    Got these down? [Go to Canvas](https://wcc.instructure.com/courses/2771437) and take the **Laser Cutting Badge: Safety Quiz**. You need **100%** to pass, and you can retake it as many times as you need. You must pass it before you use the equipment.
+    **Now go to Canvas and take the quiz:** the **Laser Cutting Badge: Safety Quiz**. You need **100%** to pass, and you can retake it as many times as you need. You must pass it before you use the equipment.
 
     **Once you pass, you're ready for the lab!** Bring the Step-by-Step pages on your phone or laptop and use them to go through each step while you work. If something goes wrong, check [Troubleshooting](troubleshooting.md). **Remember to ask if you're unsure!**
 
-    [:material-open-in-new: Take the quiz in Canvas](https://wcc.instructure.com/courses/2771437){ .md-button }
 
 <div class="page-next" markdown>
 

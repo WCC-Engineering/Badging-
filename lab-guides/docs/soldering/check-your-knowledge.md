@@ -30,11 +30,10 @@ You've read the whole Soldering badge. Before you take the Canvas quiz, see what
     **Tin the tip, turn off the iron, and leave it in the stand to cool.** Then turn off the fume absorber, clean up clipped leads, put tools back, and wash your hands.
 
 !!! quiz "Required: Now take the safety quiz in Canvas"
-    Got these down? [Go to Canvas](https://wcc.instructure.com/courses/2771437) and take the **Soldering Badge: Safety Quiz**. You need **100%** to pass, and you can retake it as many times as you need. You must pass it before you use the equipment.
+    **Now go to Canvas and take the quiz:** the **Soldering Badge: Safety Quiz**. You need **100%** to pass, and you can retake it as many times as you need. You must pass it before you use the equipment.
 
     **Once you pass, you're ready for the lab!** Bring the Step-by-Step pages on your phone or laptop and use them to go through each step while you work. **Remember to ask if you're unsure!**
 
-    [:material-open-in-new: Take the quiz in Canvas](https://wcc.instructure.com/courses/2771437){ .md-button }
 
 <div class="page-next" markdown>
 
